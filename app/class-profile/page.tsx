@@ -2,7 +2,26 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { profiles, streams } from "../data/profiles";
+import profilesData from "../data/profiles.json";
+
+type ProfileLink = {
+  label: string;
+  href: string;
+};
+
+type Profile = {
+  slug: string;
+  name: string;
+  stream: 4 | 8;
+  photo: string;
+  description: string;
+  links: ProfileLink[];
+};
+
+const { profiles, streams } = profilesData as {
+  profiles: Profile[];
+  streams: Array<4 | 8>;
+};
 
 const streamLabels: Record<4 | 8, string> = {
   4: "Stream 4",
@@ -86,12 +105,6 @@ export default function ClassProfilePage() {
                 Browse UWME class profiles
               </h2>
             </div>
-            <Link
-              className="rounded-full border border-[#1f1b18] px-5 py-2 text-xs font-semibold uppercase tracking-[0.2em]"
-              href="#admin"
-            >
-              Admin controls
-            </Link>
           </div>
 
           <div className="rounded-[28px] border border-[#e1dbd4] bg-white px-5 py-3 shadow-[0_18px_40px_rgba(60,50,40,0.08)]">
@@ -179,158 +192,6 @@ export default function ClassProfilePage() {
           )}
         </section>
 
-        <section
-          id="admin"
-          className="rounded-[28px] border border-[#e1dbd4] bg-white p-6 shadow-[0_18px_40px_rgba(60,50,40,0.08)]"
-        >
-          <div className="flex flex-col gap-6">
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#8c7f73]">
-                Admin Controls
-              </p>
-              <h2 className="font-[var(--font-display)] text-3xl font-semibold text-[#1f1b18] sm:text-4xl">
-                Manage student profiles
-              </h2>
-              <p className="mt-2 max-w-2xl text-sm text-[#6f645b]">
-                Site owners can add, edit, or delete profiles. Students do not
-                submit entries directly.
-              </p>
-            </div>
-
-            <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
-              <form className="rounded-[24px] border border-[#e1dbd4] bg-[#f7f5f2] p-6">
-                <h3 className="font-[var(--font-display)] text-xl font-semibold text-[#1f1b18]">
-                  Add or edit a profile
-                </h3>
-                <div className="mt-6 grid gap-4">
-                  <label className="text-xs uppercase tracking-[0.2em] text-[#6f645b]">
-                    Profile photo
-                  </label>
-                  <input
-                    type="file"
-                    className="rounded-2xl border border-[#d9d1c8] bg-white px-4 py-3 text-sm text-[#1f1b18]"
-                  />
-                  <label className="text-xs uppercase tracking-[0.2em] text-[#6f645b]">
-                    Full name
-                  </label>
-                  <input
-                    type="text"
-                    className="rounded-2xl border border-[#d9d1c8] bg-white px-4 py-3 text-sm text-[#1f1b18]"
-                    placeholder="Full name"
-                  />
-                  <label className="text-xs uppercase tracking-[0.2em] text-[#6f645b]">
-                    Stream
-                  </label>
-                  <select className="rounded-2xl border border-[#d9d1c8] bg-white px-4 py-3 text-sm text-[#1f1b18]">
-                    {streams.map((stream) => (
-                      <option key={stream} value={stream}>
-                        {streamLabels[stream]} - Mechanical Engineering
-                      </option>
-                    ))}
-                  </select>
-                  <label className="text-xs uppercase tracking-[0.2em] text-[#6f645b]">
-                    Personal description
-                  </label>
-                  <textarea
-                    rows={5}
-                    className="rounded-2xl border border-[#d9d1c8] bg-white px-4 py-3 text-sm text-[#1f1b18]"
-                    placeholder="Write 100-250 words."
-                  />
-                  <label className="text-xs uppercase tracking-[0.2em] text-[#6f645b]">
-                    External links (optional)
-                  </label>
-                  <div className="grid gap-3 md:grid-cols-2">
-                  <input
-                    type="url"
-                    className="rounded-2xl border border-[#d9d1c8] bg-white px-4 py-3 text-sm text-[#1f1b18]"
-                    placeholder="GitHub"
-                  />
-                  <input
-                    type="url"
-                    className="rounded-2xl border border-[#d9d1c8] bg-white px-4 py-3 text-sm text-[#1f1b18]"
-                    placeholder="LinkedIn"
-                  />
-                  <input
-                    type="url"
-                    className="rounded-2xl border border-[#d9d1c8] bg-white px-4 py-3 text-sm text-[#1f1b18]"
-                    placeholder="Instagram"
-                  />
-                  <input
-                    type="url"
-                    className="rounded-2xl border border-[#d9d1c8] bg-white px-4 py-3 text-sm text-[#1f1b18]"
-                    placeholder="Discord"
-                  />
-                  <input
-                    type="url"
-                    className="rounded-2xl border border-[#d9d1c8] bg-white px-4 py-3 text-sm text-[#1f1b18]"
-                    placeholder="Portfolio"
-                  />
-                </div>
-                </div>
-                <button
-                  type="button"
-                  className="mt-6 rounded-full bg-[#1f1b18] px-6 py-3 text-xs font-semibold uppercase tracking-[0.3em] text-[#f4f2ef]"
-                >
-                  Save profile
-                </button>
-              </form>
-
-              <div className="flex flex-col gap-4">
-                <div className="rounded-[24px] border border-[#e1dbd4] bg-[#f7f5f2] p-6">
-                  <h3 className="font-[var(--font-display)] text-xl font-semibold text-[#1f1b18]">
-                    Manage existing profiles
-                  </h3>
-                  <p className="mt-2 text-sm text-[#6f645b]">
-                    Use the controls below to edit or remove profiles.
-                  </p>
-                  <div className="mt-6 grid gap-3">
-                    {profiles.slice(0, 4).map((profile) => (
-                      <div
-                        key={profile.slug}
-                        className="flex items-center justify-between rounded-2xl border border-[#e7e0d7] bg-white px-4 py-3 text-sm"
-                      >
-                        <div>
-                          <p className="font-semibold text-[#1f1b18]">
-                            {profile.name}
-                          </p>
-                          <p className="text-xs text-[#6f645b]">
-                            {streamLabels[profile.stream]} - Mechanical Engineering
-                          </p>
-                        </div>
-                        <div className="flex gap-2">
-                          <button
-                            type="button"
-                            className="rounded-full border border-[#1f1b18] px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-[#1f1b18]"
-                          >
-                            Edit
-                          </button>
-                          <button
-                            type="button"
-                            className="rounded-full border border-[#b86a3a] px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-[#b86a3a]"
-                          >
-                            Delete
-                          </button>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-                <div className="rounded-[24px] border border-[#1f1b18] bg-[#1f1b18] p-6 text-[#f4f2ef]">
-                  <p className="text-xs uppercase tracking-[0.3em] text-[#d7b089]">
-                    External Links
-                  </p>
-                  <h3 className="font-[var(--font-display)] mt-3 text-2xl font-semibold">
-                    LinkedIn, GitHub, portfolio, email
-                  </h3>
-                  <p className="mt-3 text-sm text-[#e5ddd4]">
-                    Links should be labeled clearly and open in new tabs so each
-                    profile can live on student-owned platforms.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
       </div>
     </div>
   );

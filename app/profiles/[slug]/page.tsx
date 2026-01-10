@@ -1,6 +1,24 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { profiles } from "../../data/profiles";
+import profilesData from "../../data/profiles.json";
+
+type ProfileLink = {
+  label: string;
+  href: string;
+};
+
+type Profile = {
+  slug: string;
+  name: string;
+  stream: 4 | 8;
+  photo: string;
+  description: string;
+  links: ProfileLink[];
+};
+
+const { profiles } = profilesData as {
+  profiles: Profile[];
+};
 
 const streamLabels: Record<4 | 8, string> = {
   4: "Stream 4",
