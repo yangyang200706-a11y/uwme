@@ -21,11 +21,6 @@ export default function Home() {
             <h1 className="font-[var(--font-display)] text-4xl font-semibold leading-tight text-[#1f1b18] sm:text-5xl lg:text-6xl">
               UWME Class of 2030 profiles.
             </h1>
-            <p className="max-w-xl text-lg leading-8 text-[#5c5249]">
-              A focused directory for the University of Waterloo Mechanical
-              Engineering cohort. Find stream placements, personal stories, and
-              links to student work in one place.
-            </p>
             <div className="flex flex-wrap gap-4">
               <Link
                 className="rounded-full bg-[#1f1b18] px-6 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-[#f4f2ef] transition hover:-translate-y-0.5"
