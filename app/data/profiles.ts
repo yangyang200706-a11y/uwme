@@ -19,7 +19,7 @@ export const profiles: Profile[] = [
     stream: 4,
     photo: "/profiles/alex-morgan.svg",
     description:
-      "I am a first-year UW Mechanical Engineering student focused on sustainable product design and robotics. I love CAD, rapid prototyping, and exploring how materials behave under load. Outside class, I build small mechanisms, tinker with sensor kits, and volunteer at local STEM workshops in Waterloo.",
+      "First-year UW Mechanical Engineering student focused on sustainable product design and robotics.",
     links: [
       { label: "LinkedIn", href: "https://linkedin.com" },
       { label: "GitHub", href: "https://github.com" },
@@ -32,11 +32,11 @@ export const profiles: Profile[] = [
     stream: 8,
     photo: "/profiles/priya-desai.svg",
     description:
-      "I am interested in fluid systems and clean energy storage at Waterloo. My goal is to work on mechanical systems that make renewables more reliable and affordable. I spend my weekends sketching mechanisms, running, and reading about aviation history.",
+      "Interested in fluid systems and clean energy storage at Waterloo.",
     links: [
       { label: "LinkedIn", href: "https://linkedin.com" },
       { label: "GitHub", href: "https://github.com" },
-      { label: "Email", href: "mailto:priya@example.com" },
+      { label: "Instagram", href: "https://instagram.com" },
     ],
   },
   {
@@ -45,9 +45,10 @@ export const profiles: Profile[] = [
     stream: 4,
     photo: "/profiles/samir-khan.svg",
     description:
-      "I am drawn to mechatronics and human-centered design in UW Mechanical Engineering. I want to build assistive devices that are reliable, approachable, and repairable. I enjoy model building, photography, and late-night brainstorming about how everyday objects could move better.",
+      "Mechatronics-focused UWME student interested in human-centered design.",
     links: [
       { label: "LinkedIn", href: "https://linkedin.com" },
+      { label: "Discord", href: "https://discord.com" },
       { label: "Portfolio", href: "https://example.com" },
     ],
   },
@@ -57,10 +58,11 @@ export const profiles: Profile[] = [
     stream: 8,
     photo: "/profiles/elena-park.svg",
     description:
-      "I am fascinated by manufacturing systems, automation, and quality control at Waterloo. My goal is to blend mechanical engineering with data-driven process improvement. I like rock climbing, sketching industrial scenes, and collecting old machine parts.",
+      "Focused on manufacturing systems, automation, and quality control.",
     links: [
       { label: "LinkedIn", href: "https://linkedin.com" },
       { label: "GitHub", href: "https://github.com" },
+      { label: "Portfolio", href: "https://example.com" },
     ],
   },
   {
@@ -69,10 +71,11 @@ export const profiles: Profile[] = [
     stream: 4,
     photo: "/profiles/liam-chen.svg",
     description:
-      "I am focused on thermal systems and sustainable building design in the UWME program. I am hoping to work on HVAC innovations that cut emissions without sacrificing comfort. I spend time hiking, cooking, and experimenting with small heat exchanger models.",
+      "Thermal systems and sustainable building design in the UWME program.",
     links: [
       { label: "LinkedIn", href: "https://linkedin.com" },
-      { label: "Email", href: "mailto:liam@example.com" },
+      { label: "Instagram", href: "https://instagram.com" },
+      { label: "Portfolio", href: "https://example.com" },
     ],
   },
   {
@@ -81,9 +84,11 @@ export const profiles: Profile[] = [
     stream: 8,
     photo: "/profiles/maya-owens.svg",
     description:
-      "I am exploring biomechanics and prosthetic design at the University of Waterloo. I want to build devices that feel intuitive and empowering. When I am not studying, I am usually sketching product ideas, playing soccer, or learning about material science breakthroughs.",
+      "Exploring biomechanics and prosthetic design at the University of Waterloo.",
     links: [
       { label: "LinkedIn", href: "https://linkedin.com" },
+      { label: "GitHub", href: "https://github.com" },
+      { label: "Discord", href: "https://discord.com" },
       { label: "Portfolio", href: "https://example.com" },
     ],
   },
