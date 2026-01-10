@@ -17,6 +17,7 @@ type Profile = {
   stream: 4 | 8;
   photo: string;
   description: string;
+  highSchool: string;
   links: ProfileLink[];
 };
 
@@ -167,7 +168,7 @@ export default function ClassProfilePage() {
                         <svg className="h-4 w-4 text-[#8c7f73]" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                           <path d="M10 2C9.7 2 9.4 2.1 9.2 2.3L1.2 6.8c-.6.3-.6 1.1 0 1.4l1.3.7V12c0 2.2 3.6 4 8 4s8-1.8 8-4V8.9l.3-.2c.6-.3.6-1.1 0-1.4l-8-4.5C10.6 2.1 10.3 2 10 2zm0 2.2l7.1 4-7.1 4-7.1-4 7.1-4zm7 6.1V12c0 1.1-2.7 3-7 3s-7-1.9-7-3V8.3l6.7 3.8c.6.3 1.3.3 1.9 0l6.7-3.8z" />
                         </svg>
-                        <span className="text-xs text-[#8c7f73]">High School Name</span>
+                        <span className="text-xs text-[#8c7f73]">{profile.highSchool}</span>
                       </span>
                     </p>
                   </div>
@@ -184,17 +185,19 @@ export default function ClassProfilePage() {
                       href = link.href;
                     }
                     if (link.label === "Discord" || link.label === "Instagram") {
-                      // Not a hyperlink, show user's name on hover, smaller text, not all caps
+                      // Not a hyperlink, show user's name on hover ONLY when hovering the icon circle
                       return (
                         <span
                           key={link.label}
-                          className="flex h-8 w-8 items-center justify-center rounded-full border border-[#d9d1c8] text-[#1f1b18] relative group text-[11px] font-normal"
+                          className="flex h-8 w-8 items-center justify-center rounded-full border border-[#d9d1c8] text-[#1f1b18] relative text-[11px] font-normal hover:z-10"
                           aria-label={link.label}
                           title={link.label}
                         >
-                          {socialIcons[link.label] ?? link.label}
-                          <span className="pointer-events-none absolute left-1/2 top-full z-10 mt-1 -translate-x-1/2 whitespace-nowrap rounded bg-[#1f1b18] px-2 py-1 text-[11px] text-white opacity-0 group-hover:opacity-100 transition">
-                            <span className="block text-[11px] font-normal" style={{ textTransform: "none" }}>{profile.name}</span>
+                          <span className="group flex items-center justify-center w-full h-full">
+                            {socialIcons[link.label] ?? link.label}
+                            <span className="pointer-events-none absolute left-1/2 top-full z-10 mt-1 -translate-x-1/2 whitespace-nowrap rounded bg-[#1f1b18] px-2 py-1 text-[11px] text-white opacity-0 group-hover:opacity-100 transition">
+                              <span className="block text-[11px] font-normal" style={{ textTransform: "none" }}>{profile.name}</span>
+                            </span>
                           </span>
                         </span>
                       );

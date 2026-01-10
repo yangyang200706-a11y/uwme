@@ -2,10 +2,11 @@
   "profiles": [
     {
       "slug": "shuyang-zhou",
+      "highSchool": "York Mills Collegiate Institute",
       "name": "Shuyang Zhou",
       "stream": 8,
       "photo": "/profiles/IMG_2274.jpg",
-      "description": "I love sushi, piano, and making cool projects...ork on hackathons or do design competitions, please reach out!",
+      "description": "I love sushi, piano, and making cool projects. If you want to work on hackathons or do design competitions, please reach out!",
       "links": [
         {
           "label": "LinkedIn",
@@ -23,7 +24,7 @@
     },
     {
       "slug": "alex-morgan",
-            "highSchool": "Waterloo Collegiate Institute",
+      "highSchool": "Waterloo Collegiate Institute",
       "name": "Alex Morgan",
       "stream": 4,
       "photo": "/profiles/alex-morgan.svg",
@@ -45,7 +46,7 @@
     },
     {
       "slug": "priya-desai",
-            "highSchool": "Glenview Park Secondary School",
+      "highSchool": "Glenview Park Secondary School",
       "name": "Priya Desai",
       "stream": 8,
       "photo": "/profiles/priya-desai.svg",
@@ -67,7 +68,7 @@
     },
     {
       "slug": "samir-khan",
-            "highSchool": "Sir John A. Macdonald Secondary School",
+      "highSchool": "Sir John A. Macdonald Secondary School",
       "name": "Samir Khan",
       "stream": 4,
       "photo": "/profiles/samir-khan.svg",
@@ -89,7 +90,7 @@
     },
     {
       "slug": "elena-park",
-            "highSchool": "Forest Heights Collegiate Institute",
+      "highSchool": "Forest Heights Collegiate Institute",
       "name": "Elena Park",
       "stream": 8,
       "photo": "/profiles/elena-park.svg",
@@ -111,7 +112,7 @@
     },
     {
       "slug": "liam-chen",
-            "highSchool": "Cameron Heights Collegiate Institute",
+      "highSchool": "Cameron Heights Collegiate Institute",
       "name": "Liam Chen",
       "stream": 4,
       "photo": "/profiles/liam-chen.svg",
@@ -133,7 +134,7 @@
     },
     {
       "slug": "maya-owens",
-            "highSchool": "Kitchener-Waterloo Collegiate and Vocational School",
+      "highSchool": "Kitchener-Waterloo Collegiate and Vocational School",
       "name": "Maya Owens",
       "stream": 8,
       "photo": "/profiles/maya-owens.svg",
