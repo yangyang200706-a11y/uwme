@@ -30,7 +30,7 @@ export default function ProfilePage({ params }: ProfilePageProps) {
     >
       <div className="mx-auto flex w-full max-w-4xl flex-col gap-10 px-6 pb-20 pt-12">
         <Link
-          href="/#directory"
+          href="/class-profile#directory"
           className="text-xs font-semibold uppercase tracking-[0.3em] text-[#a35f20]"
         >
           Back to directory
