@@ -13,21 +13,22 @@ export default function Home() {
           </Link>
         </nav>
 
-        <div className="mt-16 grid flex-1 items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
-          <div className="flex flex-col gap-6">
-            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#8c7f73]">
+        <div className="mt-20 grid flex-1 items-center gap-20 lg:grid-cols-[1.2fr_0.8fr]">
+          <div className="flex flex-col gap-8 items-start justify-center pl-0">
+            <p className="text-base sm:text-lg lg:text-xl font-semibold uppercase tracking-[0.32em] text-[#8c7f73] pl-2">
               University of Waterloo - Mechanical Engineering
             </p>
-                <h1
-                  className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight drop-shadow-lg"
-                  style={{ fontFamily: 'Quicksand, Nunito, "Segoe UI Rounded", Arial, sans-serif' }}
-                >
-                  <span style={{ color: '#2d1e5e', display: 'block' }}>MECH ENG</span>
-                  <span style={{ color: '#9575cd' }}>CLASS PROFILE</span>
-                </h1>
-            <div className="flex flex-wrap gap-4">
+            <h1
+              className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight drop-shadow-lg text-left ml-[-0.5rem]"
+              style={{ fontFamily: 'Quicksand, Nunito, \"Segoe UI Rounded\", Arial, sans-serif' }}
+            >
+              <span style={{ color: '#2d1e5e' }}>MECH ENG 30</span>
+              <br />
+              <span style={{ color: '#9575cd' }}>CLASS PROFILE</span>
+            </h1>
+            <div className="flex flex-wrap gap-5 mt-4">
               <Link
-                className="rounded-full border-2 border-[#1f1b18] px-6 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-[#1f1b18] bg-transparent transition hover:bg-[#f4f2ef] hover:-translate-y-0.5"
+                className="rounded-full border-4 border-[#1f1b18] px-8 py-4 text-base font-bold uppercase tracking-[0.22em] text-[#1f1b18] bg-transparent transition hover:bg-[#f4f2ef] hover:-translate-y-1"
                 href="/class-profile"
               >
                 View Class Profile

@@ -92,7 +92,7 @@ export default function ClassProfilePage() {
   }, [query, streamFilter]);
 
   return (
-    <div className="min-h-screen bg-[#f4f2ef] text-[#1f1b18]">
+    <div className="min-h-screen bg-[linear-gradient(135deg,_#fffbe6_60%,_#fdf6e3_100%)] text-[#1f1b18]">
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-10 px-6 pb-20 pt-10">
         <section id="directory" className="flex flex-col gap-6">
           <div className="flex flex-wrap items-center justify-between gap-4">
