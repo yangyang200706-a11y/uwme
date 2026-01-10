@@ -160,8 +160,15 @@ export default function ClassProfilePage() {
                         {profile.name}
                       </Link>
                     </h3>
-                    <p className="text-sm text-[#6f645b]">
-                      {streamLabels[profile.stream]} - Mechanical Engineering
+                    <p className="text-sm text-[#6f645b] flex items-center gap-2">
+                      {profile.stream === 4 ? 'S4' : 'S8'}
+                      <span className="inline-flex items-center gap-1 ml-2">
+                        {/* School icon (graduation cap) */}
+                        <svg className="h-4 w-4 text-[#8c7f73]" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                          <path d="M10 2C9.7 2 9.4 2.1 9.2 2.3L1.2 6.8c-.6.3-.6 1.1 0 1.4l1.3.7V12c0 2.2 3.6 4 8 4s8-1.8 8-4V8.9l.3-.2c.6-.3.6-1.1 0-1.4l-8-4.5C10.6 2.1 10.3 2 10 2zm0 2.2l7.1 4-7.1 4-7.1-4 7.1-4zm7 6.1V12c0 1.1-2.7 3-7 3s-7-1.9-7-3V8.3l6.7 3.8c.6.3 1.3.3 1.9 0l6.7-3.8z" />
+                        </svg>
+                        <span className="text-xs text-[#8c7f73]">High School Name</span>
+                      </span>
                     </p>
                   </div>
                 </div>
