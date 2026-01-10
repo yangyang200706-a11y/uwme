@@ -26,7 +26,7 @@ export default function ProfilePage({ params }: ProfilePageProps) {
           href="/class-profile#directory"
           className="text-xs font-semibold uppercase tracking-[0.3em] text-[#8c7f73]"
         >
-          ← back to directory
+          Back to directory
         </Link>
 
         <div className="grid gap-8 rounded-[32px] border border-[#e1dbd4] bg-white p-8 shadow-[0_24px_48px_rgba(60,50,40,0.1)] md:grid-cols-[200px_1fr]">
@@ -37,6 +37,9 @@ export default function ProfilePage({ params }: ProfilePageProps) {
           />
           <div className="flex flex-col gap-4">
             <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#8c7f73]">
+                UW Mechanical Engineering - Class of 2030
+              </p>
               <h1 className="font-[var(--font-display)] text-3xl font-semibold text-[#1f1b18] sm:text-4xl">
                 {profile.name}
               </h1>

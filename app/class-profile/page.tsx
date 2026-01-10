@@ -48,10 +48,10 @@ export default function ClassProfilePage() {
             </Link>
             <div className="max-w-xl">
               <h1 className="font-[var(--font-display)] text-4xl font-semibold uppercase tracking-tight sm:text-5xl">
-                Profile Class '30
+                UWME Class '30
               </h1>
               <p className="mt-3 text-sm uppercase tracking-[0.3em] text-white/80">
-                Mechanical Engineering
+                University of Waterloo - Mechanical Engineering
               </p>
             </div>
           </div>
@@ -64,7 +64,7 @@ export default function ClassProfilePage() {
                 Directory
               </p>
               <h2 className="font-[var(--font-display)] text-3xl font-semibold text-[#1f1b18] sm:text-4xl">
-                Browse class profiles
+                Browse UWME class profiles
               </h2>
             </div>
             <Link

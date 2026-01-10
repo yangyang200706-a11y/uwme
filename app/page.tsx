@@ -16,15 +16,15 @@ export default function Home() {
         <div className="mt-16 grid flex-1 items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="flex flex-col gap-6">
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#8c7f73]">
-              Class of 2030
+              University of Waterloo - Mechanical Engineering
             </p>
             <h1 className="font-[var(--font-display)] text-4xl font-semibold leading-tight text-[#1f1b18] sm:text-5xl lg:text-6xl">
-              Mechanical Engineering student profiles.
+              UWME Class of 2030 profiles.
             </h1>
             <p className="max-w-xl text-lg leading-8 text-[#5c5249]">
-              A focused directory of the class, organized by stream, with
-              personal stories and external links. Search and filter tools live
-              inside the profile hub.
+              A focused directory for the University of Waterloo Mechanical
+              Engineering cohort. Find stream placements, personal stories, and
+              links to student work in one place.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -37,7 +37,7 @@ export default function Home() {
                 className="rounded-full border border-[#1f1b18] px-6 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-[#1f1b18] transition hover:-translate-y-0.5"
                 href="/class-profile#directory"
               >
-                Browse Directory
+                Browse UWME Directory
               </Link>
             </div>
           </div>
