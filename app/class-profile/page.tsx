@@ -178,48 +178,41 @@ export default function ClassProfilePage() {
                 </p>
                 <div className="mt-auto flex flex-wrap gap-2 pt-4 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#1f1b18]">
                   {profile.links.map((link) => {
-                    let href = link.href;
-                    if (link.label === "LinkedIn") {
-                      href = link.href.startsWith("https://linkedin.com") ? link.href : `https://linkedin.com/in/${link.href}`;
-                    } else if (link.label === "Portfolio" || link.label === "Website") {
-                      href = link.href;
+                    if (link.label === "Discord") {
+                      const rawHandle = link.href.trim();
+                      const displayHandle = rawHandle.startsWith("@")
+                        ? rawHandle
+                        : `@${rawHandle || "discord"}`;
+                      return (
+                        <span
+                          key={link.label}
+                          className="flex h-8 w-8 items-center justify-center rounded-full border border-[#d9d1c8] text-[#1f1b18]"
+                          aria-label={`Discord username ${displayHandle}`}
+                          title={displayHandle}
+                        >
+                          {socialIcons[link.label] ?? link.label}
+                        </span>
+                      );
                     }
-                    // All chips are hyperlinks, including Discord and Instagram
-                    return (
-                      <a
-                        key={link.label}
-                        href={
-                          link.label === "LinkedIn"
-                            ? link.href.startsWith("https://linkedin.com")
-                              ? link.href
-                              : `https://linkedin.com/in/${link.href}`
-                            : link.label === "Instagram"
-                              ? link.href.startsWith("https://instagram.com")
-                                ? link.href
-                                : `https://instagram.com/${link.href}`
-                              : link.label === "Discord"
-                                ? link.href.startsWith("https://discord.com")
-                                  ? link.href
-                                  : `https://discord.com/users/${link.href}`
-                                : link.href
-                        }
-                        target="_blank"
-                        rel="noreferrer"
-                        className="flex h-8 w-8 items-center justify-center rounded-full border border-[#d9d1c8] text-[#1f1b18] transition hover:border-[#1f1b18] relative group text-[11px] font-normal"
-                        aria-label={link.label}
-                        title={link.label}
-                      >
-                        {socialIcons[link.label] ?? link.label}
-                      </a>
-                    );
-                    // Default: hyperlink chip
+
+                    const href =
+                      link.label === "LinkedIn"
+                        ? link.href.startsWith("https://linkedin.com")
+                          ? link.href
+                          : `https://linkedin.com/in/${link.href}`
+                        : link.label === "Instagram"
+                          ? link.href.startsWith("https://instagram.com")
+                            ? link.href
+                            : `https://instagram.com/${link.href}`
+                          : link.href;
+
                     return (
                       <a
                         key={link.label}
                         href={href}
                         target="_blank"
                         rel="noreferrer"
-                        className="flex h-8 w-8 items-center justify-center rounded-full border border-[#d9d1c8] text-[#1f1b18] transition hover:border-[#1f1b18] relative group text-[11px] font-normal"
+                        className="flex h-8 w-8 items-center justify-center rounded-full border border-[#d9d1c8] text-[#1f1b18] transition hover:border-[#1f1b18] text-[11px] font-normal"
                         aria-label={link.label}
                         title={link.label}
                       >
