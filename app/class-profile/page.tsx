@@ -176,19 +176,44 @@ export default function ClassProfilePage() {
                   {profile.description}
                 </p>
                 <div className="mt-auto flex flex-wrap gap-2 pt-4 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#1f1b18]">
-                  {profile.links.map((link) => (
-                    <a
-                      key={link.label}
-                      href={link.href}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="flex h-8 w-8 items-center justify-center rounded-full border border-[#d9d1c8] text-[#1f1b18] transition hover:border-[#1f1b18]"
-                      aria-label={link.label}
-                      title={link.label}
-                    >
-                      {socialIcons[link.label] ?? link.label}
-                    </a>
-                  ))}
+                  {profile.links.map((link) => {
+                    let href = link.href;
+                    if (link.label === "LinkedIn") {
+                      href = link.href.startsWith("https://linkedin.com") ? link.href : `https://linkedin.com/in/${link.href}`;
+                    } else if (link.label === "Portfolio" || link.label === "Website") {
+                      href = link.href;
+                    }
+                    if (link.label === "Discord" || link.label === "Instagram") {
+                      // Not a hyperlink, show user's name on hover, smaller text, not all caps
+                      return (
+                        <span
+                          key={link.label}
+                          className="flex h-8 w-8 items-center justify-center rounded-full border border-[#d9d1c8] text-[#1f1b18] relative group text-[11px] font-normal"
+                          aria-label={link.label}
+                          title={link.label}
+                        >
+                          {socialIcons[link.label] ?? link.label}
+                          <span className="pointer-events-none absolute left-1/2 top-full z-10 mt-1 -translate-x-1/2 whitespace-nowrap rounded bg-[#1f1b18] px-2 py-1 text-[11px] text-white opacity-0 group-hover:opacity-100 transition">
+                            <span className="block text-[11px] font-normal" style={{ textTransform: "none" }}>{profile.name}</span>
+                          </span>
+                        </span>
+                      );
+                    }
+                    // Default: hyperlink chip
+                    return (
+                      <a
+                        key={link.label}
+                        href={href}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="flex h-8 w-8 items-center justify-center rounded-full border border-[#d9d1c8] text-[#1f1b18] transition hover:border-[#1f1b18] relative group text-[11px] font-normal"
+                        aria-label={link.label}
+                        title={link.label}
+                      >
+                        {socialIcons[link.label] ?? link.label}
+                      </a>
+                    );
+                  })}
                 </div>
               </div>
             ))}
