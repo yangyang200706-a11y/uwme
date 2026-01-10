@@ -185,7 +185,7 @@ export default function ClassProfilePage() {
                       href = link.href;
                     }
                     if (link.label === "Discord" || link.label === "Instagram") {
-                      // Not a hyperlink, show user's name on hover ONLY when hovering the icon circle
+                      // Not a hyperlink, show username from JSON on hover ONLY when hovering the icon circle
                       return (
                         <span
                           key={link.label}
@@ -196,7 +196,7 @@ export default function ClassProfilePage() {
                           <span className="group flex items-center justify-center w-full h-full">
                             {socialIcons[link.label] ?? link.label}
                             <span className="pointer-events-none absolute left-1/2 top-full z-10 mt-1 -translate-x-1/2 whitespace-nowrap rounded bg-[#1f1b18] px-2 py-1 text-[11px] text-white opacity-0 group-hover:opacity-100 transition">
-                              <span className="block text-[11px] font-normal" style={{ textTransform: "none" }}>{profile.name}</span>
+                              <span className="block text-[11px] font-normal" style={{ textTransform: "none" }}>{link.href}</span>
                             </span>
                           </span>
                         </span>
