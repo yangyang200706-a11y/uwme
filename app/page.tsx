@@ -42,28 +42,12 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="rounded-[32px] border border-[#e1dbd4] bg-white p-8 shadow-[0_24px_48px_rgba(60,50,40,0.08)]">
-            <h2 className="font-[var(--font-display)] text-2xl font-semibold text-[#1f1b18]">
-              What you will find
-            </h2>
-            <div className="mt-6 grid gap-4 text-sm text-[#6f645b]">
-              <div className="flex items-center justify-between border-b border-dashed border-[#eadfd2] pb-3">
-                Stream sorting
-                <span className="text-[#1f1b18]">4 or 8</span>
-              </div>
-              <div className="flex items-center justify-between border-b border-dashed border-[#eadfd2] pb-3">
-                Search by name
-                <span className="text-[#1f1b18]">Quick filtering</span>
-              </div>
-              <div className="flex items-center justify-between border-b border-dashed border-[#eadfd2] pb-3">
-                Individual profiles
-                <span className="text-[#1f1b18]">Stories + links</span>
-              </div>
-              <div className="flex items-center justify-between">
-                Admin workspace
-                <span className="text-[#1f1b18]">Add, edit, delete</span>
-              </div>
-            </div>
+          <div className="overflow-hidden rounded-[32px] border border-[#e1dbd4] bg-white shadow-[0_24px_48px_rgba(60,50,40,0.08)]">
+            <img
+              src="/home-placeholder.svg"
+              alt="Placeholder preview"
+              className="h-full w-full object-cover"
+            />
           </div>
         </div>
 

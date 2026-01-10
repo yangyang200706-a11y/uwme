@@ -26,7 +26,7 @@ export default function ProfilePage({ params }: ProfilePageProps) {
           href="/class-profile#directory"
           className="text-xs font-semibold uppercase tracking-[0.3em] text-[#8c7f73]"
         >
-          <- back to directory
+          ← back to directory
         </Link>
 
         <div className="grid gap-8 rounded-[32px] border border-[#e1dbd4] bg-white p-8 shadow-[0_24px_48px_rgba(60,50,40,0.1)] md:grid-cols-[200px_1fr]">
