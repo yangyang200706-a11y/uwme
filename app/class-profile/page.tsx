@@ -73,39 +73,15 @@ export default function ClassProfilePage() {
   return (
     <div className="min-h-screen bg-[#f4f2ef] text-[#1f1b18]">
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-10 px-6 pb-20 pt-10">
-        <header className="relative overflow-hidden rounded-[32px] border border-[#e1dbd4]">
-          <div className="absolute inset-0 bg-[#d9d2ca]" />
-          <div
-            className="absolute inset-0 bg-cover bg-center"
-            style={{
-              backgroundImage:
-                "linear-gradient(180deg, rgba(0,0,0,0.35), rgba(0,0,0,0.55)), url('/class-hero.jpg')",
-            }}
-          />
-          <div className="relative z-10 flex flex-col gap-5 px-6 py-10 text-white sm:px-10 sm:py-12">
-            <Link
-              href="/"
-              className="text-xs font-semibold uppercase tracking-[0.3em] text-white/80"
-            >
-              &lt;- back home
-            </Link>
-            <div className="max-w-xl">
-              <h1 className="font-[var(--font-display)] text-4xl font-semibold uppercase tracking-tight sm:text-5xl">
-                UWME Class '30
-              </h1>
-              <p className="mt-3 text-sm uppercase tracking-[0.3em] text-white/80">
-                University of Waterloo - Mechanical Engineering
-              </p>
-            </div>
-          </div>
-        </header>
-
         <section id="directory" className="flex flex-col gap-6">
           <div className="flex flex-wrap items-center justify-between gap-4">
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#8c7f73]">
-                Directory
-              </p>
+              <Link
+                className="text-xs font-semibold uppercase tracking-[0.3em] text-[#8c7f73]"
+                href="/"
+              >
+                ← back home
+              </Link>
               <h2 className="font-[var(--font-display)] text-3xl font-semibold text-[#1f1b18] sm:text-4xl">
                 Browse UWME class profiles
               </h2>
@@ -118,7 +94,7 @@ export default function ClassProfilePage() {
             </Link>
           </div>
 
-          <div className="rounded-[28px] border border-[#e1dbd4] bg-white p-5 shadow-[0_18px_40px_rgba(60,50,40,0.08)]">
+          <div className="rounded-[28px] border border-[#e1dbd4] bg-white px-5 py-3 shadow-[0_18px_40px_rgba(60,50,40,0.08)]">
             <div className="flex flex-wrap items-center gap-4">
               <span className="text-xs font-semibold uppercase tracking-[0.3em] text-[#8c7f73]">
                 Filters
