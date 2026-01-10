@@ -19,12 +19,12 @@ export default function Home() {
               University of Waterloo - Mechanical Engineering
             </p>
             <h1
-              className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-[#2d1e5e] drop-shadow-lg"
+              className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight drop-shadow-lg"
               style={{ fontFamily: 'Consolas, "Fira Mono", "JetBrains Mono", "Roboto Mono", "Menlo", "Monaco", monospace' }}
             >
-              MECH ENG&apos;30
-              <br></br>
-              CLASS PROFILE
+              <span style={{ color: '#7c3aed' }}>MECH ENG&apos;30</span>
+              <br />
+              <span style={{ color: '#2d1e5e' }}>CLASS PROFILE</span>
             </h1>
             <div className="flex flex-wrap gap-4">
               <Link
