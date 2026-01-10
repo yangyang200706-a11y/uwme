@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#f4f2ef] text-[#1f1b18]">
+    <div className="min-h-screen bg-gradient-to-br from-purple-200 via-purple-100 to-[#f4f2ef] text-[#1f1b18]">
       <div className="mx-auto flex min-h-screen w-full max-w-5xl flex-col px-6 pb-16 pt-10">
         <nav className="flex items-center justify-between text-sm uppercase tracking-[0.2em] text-[#6f645b]">
           <span className="rounded-full border border-[#d9d1c8] px-4 py-2">
@@ -18,8 +18,13 @@ export default function Home() {
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#8c7f73]">
               University of Waterloo - Mechanical Engineering
             </p>
-            <h1 className="font-[var(--font-display)] text-4xl font-semibold leading-tight text-[#1f1b18] sm:text-5xl lg:text-6xl">
-              UWME Class of 2030 profiles.
+            <h1
+              className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-[#2d1e5e] drop-shadow-lg"
+              style={{ fontFamily: 'Consolas, "Fira Mono", "JetBrains Mono", "Roboto Mono", "Menlo", "Monaco", monospace' }}
+            >
+              MECH ENG&apos;30
+              <br></br>
+              CLASS PROFILE
             </h1>
             <div className="flex flex-wrap gap-4">
               <Link
