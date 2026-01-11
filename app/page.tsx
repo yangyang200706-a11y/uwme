@@ -4,20 +4,14 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[linear-gradient(135deg,_#fffbe6_60%,_#fdf6e3_100%)] text-[#1f1b18]">
       <div className="mx-auto flex min-h-screen w-full max-w-5xl flex-col px-6 pb-16 pt-10">
-        <nav className="flex items-center justify-between text-sm uppercase tracking-[0.2em] text-[#6f645b]">
-          <span className="rounded-full border border-[#d9d1c8] px-4 py-2">
-            UW Mechanical Engineering
-          </span>
-          <Link className="hover:text-[#1f1b18]" href="/class-profile">
-            Class Profile
-          </Link>
-        </nav>
-
         <div className="mt-20 grid flex-1 items-center gap-20 lg:grid-cols-[1.2fr_0.8fr]">
           <div className="flex flex-col gap-8 items-start justify-center pl-0">
-            <p className="text-base sm:text-lg lg:text-xl font-semibold uppercase tracking-[0.32em] text-[#8c7f73] pl-2">
-              University of Waterloo - Mechanical Engineering
-            </p>
+            <div className="flex flex-row gap-2 items-center">
+              <img src="/waterloo.png" alt="University of Waterloo Logo" className="h-20 w-auto" />
+              <p className="text-base sm:text-lg lg:text-xl font-semibold uppercase tracking-[0.32em] text-[#8c7f73] pl-2">
+                University of Waterloo Faculty of Engineering
+              </p>
+            </div>
             <h1
               className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight drop-shadow-lg text-left ml-[-0.5rem]"
               style={{ fontFamily: 'Quicksand, Nunito, \"Segoe UI Rounded\", Arial, sans-serif' }}
@@ -36,9 +30,9 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="overflow-hidden rounded-[32px] border border-[#e1dbd4] bg-white shadow-[0_24px_48px_rgba(60,50,40,0.08)]">
+          <div className="overflow-hidden rounded-[32px]shadow-[0_24px_48px_rgba(60,50,40,0.08)]">
             <img
-              src="/home-placeholder.svg"
+              src="/uwmelogo.png"
               alt="Placeholder preview"
               className="h-full w-full object-cover"
             />
