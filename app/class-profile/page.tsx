@@ -181,11 +181,14 @@ export default function ClassProfilePage() {
                       return (
                         <span
                           key={link.label}
-                          className="flex h-8 w-8 items-center justify-center rounded-full border border-[#d9d1c8] text-[#1f1b18]"
+                          className="flex items-center gap-2 rounded-full border border-[#d9d1c8] px-2 py-1 text-[#1f1b18]"
                           aria-label={`Discord username ${displayHandle}`}
                           title={displayHandle}
                         >
-                          {socialIcons[link.label] ?? link.label}
+                          <span className="h-4 w-4">{socialIcons[link.label] ?? link.label}</span>
+                          <span className="text-[10px] normal-case tracking-normal text-[#6f645b]">
+                            {displayHandle}
+                          </span>
                         </span>
                       );
                     }
