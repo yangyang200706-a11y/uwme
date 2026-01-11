@@ -154,12 +154,8 @@ export default function ClassProfilePage() {
                   />
                   <div>
                     <h3 className="text-xl font-semibold text-[#1f1b18]">
-                      <Link
-                        className="hover:underline"
-                        href={`/profiles/${profile.slug}`}
-                      >
+                  
                         {profile.name}
-                      </Link>
                     </h3>
                     <p className="text-sm text-[#6f645b] flex items-center gap-2">
                       {profile.stream === 4 ? 'S4' : 'S8'}
