@@ -16,7 +16,7 @@ export default function Home() {
               className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight drop-shadow-lg text-left ml-[-0.5rem]"
               style={{ fontFamily: 'Quicksand, Nunito, \"Segoe UI Rounded\", Arial, sans-serif' }}
             >
-              <span style={{ color: '#2d1e5e' }}>MECH ENG '30</span>
+              <span style={{ color: '#2d1e5e' }}>MECH ENG 30</span>
               <br />
               <span style={{ color: '#9575cd' }}>CLASS PROFILES</span>
             </h1>
