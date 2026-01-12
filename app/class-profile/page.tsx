@@ -174,19 +174,19 @@ export default function ClassProfilePage() {
                 <div className="mt-auto flex flex-wrap gap-2 pt-4 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#1f1b18]">
                   {profile.links.map((link) => {
                     if (link.label === "Discord") {
-                      const rawHandle = link.href.trim();
-                      const displayHandle = rawHandle.startsWith("@")
-                        ? rawHandle
-                        : `@${rawHandle || "discord"}`;
-                      return (
-                        <span
-                          key={link.label}
-                          className="flex h-8 w-8 items-center justify-center rounded-full border border-[#d9d1c8] text-[#1f1b18]"
-                          aria-label={`Discord username ${displayHandle}`}
-                          title={displayHandle}
-                        >
-                          {socialIcons[link.label] ?? link.label}
-                        </span>
+                        const rawHandle = link.href.trim();
+                        const displayHandle = rawHandle.startsWith("@")
+                          ? rawHandle
+                          : `@${rawHandle || "discord"}`;
+                        return (
+                          <span
+                            key={link.label}
+                            className="flex h-8 w-8 items-center justify-center rounded-full border border-[#d9d1c8] text-[#1f1b18]"
+                            aria-label={`Discord username ${displayHandle}`}
+                            title={displayHandle}
+                          >
+                            {socialIcons[link.label] ?? link.label}
+                          </span>
                       );
                     }
 

@@ -6,19 +6,43 @@
       "name": "Shuyang Zhou",
       "stream": 8,
       "photo": "/profiles/shuyang-zhou.jpg",
+      "hometown": "Toronto, Ontario",
       "description": "Vibe code enthusiast. If you want to work on hackathons or do design competitions, please reach out!",
       "links": [
-        {
-          "label": "LinkedIn",
-          "href": "shuyangzhou"
-        },
         {
           "label": "Instagram",
           "href": "shuyang_01"
         },
         {
+          "label": "LinkedIn",
+          "href": "shuyangzhou"
+        },
+        {
           "label": "Discord",
           "href": "galacticmagnet"
+        }
+      ]
+    },
+    {
+      "slug": "julian-ly",
+      "highSchool": "YMCI",
+      "name": "Julian Ly",
+      "stream": 8,
+      "photo": "/profiles/julian-ly.jpeg",
+      "hometown": "Toronto Ontario",
+      "description": "linear algebra enthusiast. kero kero bonito is life.",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "julianly007"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "julianly"
+        },
+        {
+          "label": "Discord",
+          "href": "fredvanvleet"
         }
       ]
     }
