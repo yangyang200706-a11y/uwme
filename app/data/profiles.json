@@ -8,7 +8,18 @@
       "photo": "/profiles/jackie-shao.jpg",
       "hometown": null,
       "description": "Interested in product design and engineering projects.",
-      "links": []
+      "links": [{
+          "label": "Instagram",
+          "href": "jackieee_shao"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "jingkai-shao3"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }]
     },
     {
       "slug": "kai-goodall",
@@ -18,7 +29,18 @@
       "photo": "/profiles/kai-goodall.png",
       "hometown": "Ottawa",
       "description": "Enjoys problem solving and hands-on mechanical work.",
-      "links": []
+      "links": [{
+          "label": "Instagram",
+          "href": "mcmgoodall"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "kaigoodall"
+        },
+        {
+          "label": "Discord",
+          "href": "kaigoodall"
+        }]
     },
     {
       "slug": "zhengxu-qian-(lucas)",
@@ -28,7 +50,18 @@
       "photo": "/profiles/zhengxu-qian-(lucas).jpg",
       "hometown": null,
       "description": "Interested in robotics and mechatronics.",
-      "links": []
+      "links": [{
+          "label": "Instagram",
+          "href": "lucasqianzhengxu"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "zhengxu-qian-3a6a363a0"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }]
     },
     {
       "slug": "aditya-balaram",
@@ -38,7 +71,18 @@
       "photo": "/profiles/aditya-balaram.jpeg",
       "hometown": "Mississauga, Ontario",
       "description": "Passionate about design competitions and applied math.",
-      "links": []
+      "links": [{
+          "label": "Instagram",
+          "href": "adib_237"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "aditya-balaram-008215367"
+        },
+        {
+          "label": "Discord",
+          "href": "marshallahbrother"
+        }]
     },
     {
       "slug": "daniel-w-liu",
@@ -48,7 +92,18 @@
       "photo": "/profiles/daniel-w-liu.jpg",
       "hometown": "Toronto",
       "description": "Interested in mechanical systems and analysis.",
-      "links": []
+      "links": [{
+          "label": "Instagram",
+          "href": "shuyang_01"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "shuyangzhou"
+        },
+        {
+          "label": "Discord",
+          "href": "galacticmagnet"
+        }]
     },
     {
       "slug": "ryan-ly",
@@ -58,7 +113,18 @@
       "photo": "/profiles/ryan-ly.jpeg",
       "hometown": "Toronto",
       "description": "Enjoys physics-based problem solving and CAD.",
-      "links": []
+      "links": [{
+          "label": "Instagram",
+          "href": "ryan_ly12"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "ryan-ly12"
+        },
+        {
+          "label": "Discord",
+          "href": "xploiterr"
+        }]
     },
     {
       "slug": "maaz-amir",
@@ -68,7 +134,18 @@
       "photo": "/profiles/maaz-amir.jpeg",
       "hometown": null,
       "description": "Interested in mechanical design and manufacturing.",
-      "links": []
+      "links": [{
+          "label": "Instagram",
+          "href": "maazthegoat"
+        },
+        {
+          "label": "LinkedIn",
+          "href": ""
+        },
+        {
+          "label": "Discord",
+          "href": "galacticmagnet"
+        }]
     },
     {
       "slug": "abdurrahim-baradia",
@@ -78,7 +155,18 @@
       "photo": "/profiles/abdurrahim-baradia.jpg",
       "hometown": "Mombasa, Kenya",
       "description": "Curious about engineering applications in real-world systems.",
-      "links": []
+      "links": [{
+          "label": "Instagram",
+          "href": "abdurrahim.baradia"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "shuyangzhou"
+        },
+        {
+          "label": "Discord",
+          "href": "abdurrahimbaradia"
+        }]
     },
     {
       "slug": "julian-ly",
@@ -88,7 +176,18 @@
       "photo": "/profiles/julian-ly.jpeg",
       "hometown": "Toronto, Ontario",
       "description": "Linear algebra enthusiast. Kero Kero Bonito is life.",
-      "links": []
+      "links": [{
+          "label": "Instagram",
+          "href": "julianly007"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "julianly"
+        },
+        {
+          "label": "Discord",
+          "href": "fredvanvleet"
+        }]
     },
     {
       "slug": "shuyang-zhou",
@@ -98,7 +197,18 @@
       "photo": "/profiles/shuyang-zhou.jpg",
       "hometown": null,
       "description": "Vibe code enthusiast. If you want to work on hackathons or design competitions, reach out.",
-      "links": []
+      "links": [{
+          "label": "Instagram",
+          "href": "shuyang_01"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "shuyangzhou"
+        },
+        {
+          "label": "Discord",
+          "href": "galacticmagnet"
+        }]
     }
   ],
   "streams": [4, 8]
