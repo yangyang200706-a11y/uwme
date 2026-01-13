@@ -1,27 +1,84 @@
 {
   "profiles": [
     {
-      "slug": "shuyang-zhou",
-      "highSchool": "YMCI",
-      "name": "Shuyang Zhou",
+      "slug": "jackie-shao",
+      "highSchool": "",
+      "name": "Jackie Shao",
+      "stream": 4,
+      "photo": "/profiles/jackie-shao.jpg",
+      "hometown": null,
+      "description": "Interested in product design and engineering projects.",
+      "links": []
+    },
+    {
+      "slug": "kai-goodall",
+      "highSchool": "Ashbury",
+      "name": "Kai Goodall",
       "stream": 8,
-      "photo": "/profiles/shuyang-zhou.jpg",
-      "hometown": "Toronto, Ontario",
-      "description": "Vibe code enthusiast. If you want to work on hackathons or do design competitions, please reach out!",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "shuyang_01"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "shuyangzhou"
-        },
-        {
-          "label": "Discord",
-          "href": "galacticmagnet"
-        }
-      ]
+      "photo": "/profiles/kai-goodall.png",
+      "hometown": "Ottawa",
+      "description": "Enjoys problem solving and hands-on mechanical work.",
+      "links": []
+    },
+    {
+      "slug": "zhengxu-qian-(lucas)",
+      "highSchool": "",
+      "name": "Zhengxu Qian (Lucas)",
+      "stream": 8,
+      "photo": "/profiles/zhengxu-qian-(lucas).jpg",
+      "hometown": null,
+      "description": "Interested in robotics and mechatronics.",
+      "links": []
+    },
+    {
+      "slug": "aditya-balaram",
+      "highSchool": "",
+      "name": "Aditya Balaram",
+      "stream": 8,
+      "photo": "/profiles/aditya-balaram.jpeg",
+      "hometown": "Mississauga, Ontario",
+      "description": "Passionate about design competitions and applied math.",
+      "links": []
+    },
+    {
+      "slug": "daniel-w-liu",
+      "highSchool": "STR",
+      "name": "Daniel W Liu",
+      "stream": 8,
+      "photo": "/profiles/daniel-w-liu.jpg",
+      "hometown": "Toronto",
+      "description": "Interested in mechanical systems and analysis.",
+      "links": []
+    },
+    {
+      "slug": "ryan-ly",
+      "highSchool": "YMCI",
+      "name": "Ryan Ly",
+      "stream": 8,
+      "photo": "/profiles/ryan-ly.jpeg",
+      "hometown": "Toronto",
+      "description": "Enjoys physics-based problem solving and CAD.",
+      "links": []
+    },
+    {
+      "slug": "maaz-amir",
+      "highSchool": "",
+      "name": "Maaz Amir",
+      "stream": 4,
+      "photo": "/profiles/maaz-amir.jpeg",
+      "hometown": null,
+      "description": "Interested in mechanical design and manufacturing.",
+      "links": []
+    },
+    {
+      "slug": "abdurrahim-baradia",
+      "highSchool": "",
+      "name": "Abdurrahim Baradia",
+      "stream": 4,
+      "photo": "/profiles/abdurrahim-baradia.jpg",
+      "hometown": "Mombasa, Kenya",
+      "description": "Curious about engineering applications in real-world systems.",
+      "links": []
     },
     {
       "slug": "julian-ly",
@@ -29,26 +86,20 @@
       "name": "Julian Ly",
       "stream": 8,
       "photo": "/profiles/julian-ly.jpeg",
-      "hometown": "Toronto Ontario",
-      "description": "linear algebra enthusiast. kero kero bonito is life.",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "julianly007"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "julianly"
-        },
-        {
-          "label": "Discord",
-          "href": "fredvanvleet"
-        }
-      ]
+      "hometown": "Toronto, Ontario",
+      "description": "Linear algebra enthusiast. Kero Kero Bonito is life.",
+      "links": []
+    },
+    {
+      "slug": "shuyang-zhou",
+      "highSchool": "YMCI",
+      "name": "Shuyang Zhou",
+      "stream": 8,
+      "photo": "/profiles/shuyang-zhou.jpg",
+      "hometown": null,
+      "description": "Vibe code enthusiast. If you want to work on hackathons or design competitions, reach out.",
+      "links": []
     }
   ],
-  "streams": [
-    4,
-    8
-  ]
+  "streams": [4, 8]
 }

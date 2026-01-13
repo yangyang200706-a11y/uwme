@@ -40,7 +40,7 @@ export default function Home() {
         </div>
 
         <footer className="mt-16 text-xs uppercase tracking-[0.3em] text-[#8c7f73]">
-          Mechanical Engineering Class of 2030
+          Mechanical Engineering Class of 2030 - Logo by Myles Seckler
         </footer>
       </div>
     </div>
