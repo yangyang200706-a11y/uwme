@@ -158,19 +158,19 @@ export default function ClassProfilePage() {
                       {profile.stream === 4 ? "S4" : "S8"}
                       <span className="inline-flex items-center gap-1 ml-2">
                         {/* School icon (graduation cap) */}
-
-                        <svg
-                          viewBox="0 0 128 128"
-                          width={28}
-                          height={28}
-                          xmlns="http://www.w3.org/2000/svg"
-                          xmlnsXlink="http://www.w3.org/1999/xlink"
-                          aria-hidden="true"
-                          role="img"
-                          className="iconify iconify--noto"
-                          preserveAspectRatio="xMidYMid meet"
-                          fill="#000000"
-                        >
+                        {profile.highSchool && (
+                          <svg
+                            viewBox="0 0 128 128"
+                            width={28}
+                            height={28}
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlnsXlink="http://www.w3.org/1999/xlink"
+                            aria-hidden="true"
+                            role="img"
+                            className="iconify iconify--noto"
+                            preserveAspectRatio="xMidYMid meet"
+                            fill="#000000"
+                          >
                           <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                           <g
                             id="SVGRepo_tracerCarrier"
@@ -224,6 +224,7 @@ export default function ClassProfilePage() {
                             ></path>
                           </g>
                         </svg>
+                      )}
                         <span className="text-xs text-[#8c7f73]">
                           {profile.highSchool}
                         </span>
@@ -238,6 +239,9 @@ export default function ClassProfilePage() {
                   {profile.links.map((link) => {
                     if (link.label === "Discord") {
                       const rawHandle = link.href.trim();
+
+                      if (!rawHandle) return null;
+
                       const displayHandle = rawHandle.startsWith("@")
                         ? rawHandle
                         : `@${rawHandle || "discord"}`;
@@ -258,16 +262,20 @@ export default function ClassProfilePage() {
                       );
                     }
 
+                    const rawHref = link.href.trim();
+                    if (!rawHref) return null;
+
                     const href =
                       link.label === "LinkedIn"
-                        ? link.href.startsWith("https://linkedin.com")
-                          ? link.href
-                          : `https://linkedin.com/in/${link.href}`
+                        ? rawHref.startsWith("https://linkedin.com")
+                          ? rawHref
+                          : `https://linkedin.com/in/${rawHref}`
                         : link.label === "Instagram"
-                        ? link.href.startsWith("https://instagram.com")
-                          ? link.href
-                          : `https://instagram.com/${link.href}`
-                        : link.href;
+                        ? rawHref.startsWith("https://instagram.com")
+                          ? rawHref
+                          : `https://instagram.com/${rawHref}`
+                        : rawHref;
+
 
                     return (
                       <a
