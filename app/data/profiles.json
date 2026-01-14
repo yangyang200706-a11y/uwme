@@ -1,13 +1,85 @@
 {
   "profiles": [
     {
+      "slug": "ryan-kai-sum-wong",
+      "highSchool": "VSA",
+      "name": "Ryan Kai Sum Wong",
+      "stream": 8,
+      "photo": "/profiles/ryan-wong.png",
+      "hometown": "Hong Kong, CHN",
+      "description": "ibig fan of aerospace and medical tech and seals(the animal)",
+      "links": [{
+          "label": "Instagram",
+          "href": "wks_ryan_"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "ryan-kai-sum-wong"
+        },
+        {
+          "label": "Discord",
+          "href": "sealoz"
+        },
+        {
+          "label": "Website",
+          "href": "https://www.ryankaisum.ca/"
+        }]
+    },
+    {
+      "slug": "isaac-wright",
+      "highSchool": "BC",
+      "name": "Isaac Wright",
+      "stream": 4,
+      "photo": "/profiles/isaac-wright.jpeg",
+      "hometown": "Barrie, ON",
+      "description": "I want to own every Toyota matrix south of the border. Or own the moon",
+      "links": [{
+          "label": "Instagram",
+          "href": "realisaacwright"
+        },
+        {
+          "label": "LinkedIn",
+          "href": ""
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        },
+        {
+          "label": "Website",
+          "href": "https://burymewithmymoney.com/"
+        }
+      ]
+    },
+    {
+      "slug": "nabhan-ahmad",
+      "highSchool": "SBCSS",
+      "name": "Nabhan Ahmad",
+      "stream": 8,
+      "photo": "/profiles/nabhan-ahmad.jpg",
+      "hometown": null,
+      "description": "I enjoy designing and building innovative systems",
+      "links": [{
+          "label": "Instagram",
+          "href": ""
+        },
+        {
+          "label": "LinkedIn",
+          "href": ""
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }]
+    },
+    {
       "slug": "jackie-shao",
       "highSchool": "",
       "name": "Jackie Shao",
       "stream": 4,
       "photo": "/profiles/jackie-shao.jpg",
       "hometown": null,
-      "description": "Interested in product design and engineering projects.",
+      "description": "I am a licensed pilot and an aspiring aerospace or automative engineer. ",
       "links": [{
           "label": "Instagram",
           "href": "jackieee_shao"
@@ -27,8 +99,8 @@
       "name": "Kai Goodall",
       "stream": 8,
       "photo": "/profiles/kai-goodall.png",
-      "hometown": "Ottawa",
-      "description": "Enjoys problem solving and hands-on mechanical work.",
+      "hometown": "Ottawa, ON",
+      "description": "Funding technical projects at merge.club and bagel.fund, building rockets at waterloo rocketry, touching grass infrequently",
       "links": [{
           "label": "Instagram",
           "href": "mcmgoodall"
@@ -49,7 +121,7 @@
       "stream": 8,
       "photo": "/profiles/zhengxu-qian-(lucas).jpg",
       "hometown": null,
-      "description": "Interested in robotics and mechatronics.",
+      "description": "Likes strategy and turn-based games, gachas, open world rpgs and anime. ",
       "links": [{
           "label": "Instagram",
           "href": "lucasqianzhengxu"
@@ -69,8 +141,8 @@
       "name": "Aditya Balaram",
       "stream": 8,
       "photo": "/profiles/aditya-balaram.jpeg",
-      "hometown": "Mississauga, Ontario",
-      "description": "Passionate about design competitions and applied math.",
+      "hometown": "Mississauga, ON",
+      "description": "hey my name is Aditya Balaram and I enjoy spending time with family and friends, and learning new things. ",
       "links": [{
           "label": "Instagram",
           "href": "adib_237"
@@ -90,8 +162,8 @@
       "name": "Daniel W Liu",
       "stream": 8,
       "photo": "/profiles/daniel-w-liu.jpg",
-      "hometown": "Toronto",
-      "description": "Interested in mechanical systems and analysis.",
+      "hometown": "Toronto, ON",
+      "description": "need myself some lazeez daily specials and a cs finance double major",
       "links": [{
           "label": "Instagram",
           "href": ""
@@ -111,8 +183,8 @@
       "name": "Ryan Ly",
       "stream": 8,
       "photo": "/profiles/ryan-ly.jpeg",
-      "hometown": "Toronto",
-      "description": "Enjoys physics-based problem solving and CAD.",
+      "hometown": "Toronto, ON",
+      "description": "say hi if you see me around!!",
       "links": [{
           "label": "Instagram",
           "href": "ryan_ly12"
@@ -123,7 +195,7 @@
         },
         {
           "label": "Discord",
-          "href": "xploiterr"
+          "href": ""
         }]
     },
     {
@@ -133,7 +205,7 @@
       "stream": 4,
       "photo": "/profiles/maaz-amir.jpeg",
       "hometown": null,
-      "description": "Interested in mechanical design and manufacturing.",
+      "description": "I broke my nose when I was young",
       "links": [{
           "label": "Instagram",
           "href": "maazthegoat"
@@ -154,14 +226,14 @@
       "stream": 4,
       "photo": "/profiles/abdurrahim-baradia.jpg",
       "hometown": "Mombasa, Kenya",
-      "description": "Curious about engineering applications in real-world systems.",
+      "description": "Love Zack Cramer",
       "links": [{
           "label": "Instagram",
           "href": "abdurrahim.baradia"
         },
         {
           "label": "LinkedIn",
-          "href": "shuyangzhou"
+          "href": ""
         },
         {
           "label": "Discord",
@@ -174,8 +246,8 @@
       "name": "Julian Ly",
       "stream": 8,
       "photo": "/profiles/julian-ly.jpeg",
-      "hometown": "Toronto, Ontario",
-      "description": "Linear algebra enthusiast. Kero Kero Bonito is life.",
+      "hometown": "Toronto, ON",
+      "description": "linear algebra enthusiast. kero kero bonito is life. ",
       "links": [{
           "label": "Instagram",
           "href": "julianly007"
@@ -195,7 +267,7 @@
       "name": "Shuyang Zhou",
       "stream": 8,
       "photo": "/profiles/shuyang-zhou.jpg",
-      "hometown": null,
+      "hometown": "Toronto, ON",
       "description": "Vibe code enthusiast. If you want to work on hackathons or design competitions, reach out.",
       "links": [{
           "label": "Instagram",
