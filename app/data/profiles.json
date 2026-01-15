@@ -1,6 +1,48 @@
 {
   "profiles": [
     {
+      "slug": "marissa-elliott",
+      "highSchool": "SWS",
+      "name": "Marissa Elliott",
+      "stream": 8,
+      "photo": "/profiles/marissa-elliott.jpg",
+      "hometown": "Hamillton, ON",
+      "description": "Academic Rep! Lover of Harry Potter, Dashchunds, and Musical Theatre 😁",
+      "links": [{
+          "label": "Instagram",
+          "href": "marissa_elliott22"
+        },
+        {
+          "label": "LinkedIn",
+          "href": ""
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }]
+    },
+    {
+      "slug": "nicholas-pogosoff",
+      "highSchool": "FB CHS",
+      "name": "Nicholas Pogosoff",
+      "stream": 4,
+      "photo": "/profiles/nicholas-pogosoff.jpg",
+      "hometown": "Vaughan, ON",
+      "description": "I was an 'I like math and science' student. I was not ready for MATH 115...",
+      "links": [{
+          "label": "Instagram",
+          "href": "npogoo"
+        },
+        {
+          "label": "LinkedIn",
+          "href": ""
+        },
+        {
+          "label": "Discord",
+          "href": "spacebo"
+        }]
+    },
+    {
       "slug": "ryan-kai-sum-wong",
       "highSchool": "VSA",
       "name": "Ryan Kai Sum Wong",
