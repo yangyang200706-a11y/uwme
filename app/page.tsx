@@ -9,26 +9,46 @@ export default function Home() {
           <div className="flex flex-col gap-8 items-start justify-center pl-0">
             <div className="flex flex-row gap-2 items-center">
               <img src="/waterloo.png" alt="University of Waterloo Logo" className="h-20 w-auto" />
-              <p className="text-base sm:text-lg lg:text-xl font-semibold uppercase tracking-[0.32em] text-[#8c7f73] pl-2">
-                University of Waterloo Faculty of Engineering
+              <p className="text-base sm:text-lg lg:text-xl font-semibold uppercase tracking-[0.10em] text-[#6f6f6f] pl-3">
+                University of Waterloo <br /> Faculty of Engineering
               </p>
             </div>
-            <h1
-              className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight drop-shadow-lg text-left ml-[-0.5rem]"
-              style={{ fontFamily: 'Quicksand, Nunito, \"Segoe UI Rounded\", Arial, sans-serif' }}
+            <Link
+              href="/class-profile"
+              className="group"
             >
-              <span style={{ color: '#2d1e5e' }}>MECH ENG 30</span>
-              <br />
-              <span style={{ color: '#9575cd' }}>CLASS PROFILES</span>
-            </h1>
-            <div className="flex flex-wrap gap-5 mt-4">
-              <Link
-                className="rounded-full border-4 border-[#1f1b18] px-8 py-4 text-base font-bold uppercase tracking-[0.22em] text-[#1f1b18] bg-transparent transition hover:bg-[#f4f2ef] hover:-translate-y-1"
-                href="/class-profile"
+              <h1
+                className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight drop-shadow-lg text-left ml-[-0.5rem]
+               transition group-hover:opacity-90"
+                style={{ fontFamily: 'Quicksand, Nunito, \"Segoe UI Rounded\", Arial, sans-serif' }}
               >
-                View Class Profile
-              </Link>
-            </div>
+                <span
+                  className="block whitespace-nowrap text-[0.9em] sm:text-[0.95em]
+             transition-transform group-hover:-translate-y-0.5"
+                  style={{ color: '#2d1e5e' }}
+                >
+                  MECH ENG ’30
+                </span>
+
+                <span
+                  className="block whitespace-nowrap text-[0.85em] sm:text-[0.9em]
+             transition-transform group-hover:-translate-y-0.5"
+                  style={{ color: '#9575cd' }}
+                >
+                  CLASS PROFILE
+                </span>
+                <span
+                  className="mt-2 block text-xs sm:text-sm font-medium tracking-wide
+                 text-[#6f63b6] opacity-80
+                 transition-opacity group-hover:opacity-100"
+                >
+                  (click to view profiles!)
+                </span>
+
+              </h1>
+            </Link>
+
+
           </div>
 
           <div className="overflow-hidden rounded-[32px]shadow-[0_24px_48px_rgba(60,50,40,0.08)]">
