@@ -9,7 +9,7 @@ export default function Home() {
           <div className="flex flex-col gap-8 items-start justify-center pl-0">
             <div className="flex flex-row gap-2 items-center">
               <img src="/waterloo.png" alt="University of Waterloo Logo" className="h-20 w-auto" />
-              <p className="text-base sm:text-lg lg:text-xl font-semibold uppercase tracking-[0.10em] text-[#6f6f6f] pl-3">
+              <p className="text-base sm:text-lg lg:text-xl font-semibold uppercase tracking-[0.09em] text-[#6f6f6f] pl-3">
                 University of Waterloo <br /> Faculty of Engineering
               </p>
             </div>
@@ -20,10 +20,16 @@ export default function Home() {
               <h1
                 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight drop-shadow-lg text-left ml-[-0.5rem]
                transition group-hover:opacity-90"
-                style={{ fontFamily: 'Quicksand, Nunito, \"Segoe UI Rounded\", Arial, sans-serif' }}
+style={{ fontFamily: '"Segoe UI", "Helvetica Neue", Arial, sans-serif' }}
+
+
+
+
+
+
               >
                 <span
-                  className="block whitespace-nowrap text-[0.9em] sm:text-[0.95em]
+                  className="block whitespace-nowrap text-[1em] sm:text-[1.05em]
              transition-transform group-hover:-translate-y-0.5"
                   style={{ color: '#2d1e5e' }}
                 >
@@ -31,7 +37,7 @@ export default function Home() {
                 </span>
 
                 <span
-                  className="block whitespace-nowrap text-[0.85em] sm:text-[0.9em]
+                  className="block whitespace-nowrap text-[0.95em] sm:text-[1em]
              transition-transform group-hover:-translate-y-0.5"
                   style={{ color: '#9575cd' }}
                 >
@@ -51,13 +57,17 @@ export default function Home() {
 
           </div>
 
-          <div className="overflow-hidden rounded-[32px]shadow-[0_24px_48px_rgba(60,50,40,0.08)]">
-            <img
-              src="/uwmelogo.png"
-              alt="Placeholder preview"
-              className="h-full w-full object-cover"
-            />
-          </div>
+          {/* UWME Logo */}
+          <Link href="/class-profile">
+            <div className="cursor-pointer">
+              <img
+                src="/uwmelogo.png"
+                alt="University of Waterloo Mech Eng Logo"
+                className="h-full w-full object-contain" 
+              />
+            </div>
+          </Link>
+
         </div>
 
         <footer className="mt-16 text-xs uppercase tracking-[0.3em] text-[#8c7f73]">
