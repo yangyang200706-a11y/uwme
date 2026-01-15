@@ -9,7 +9,7 @@ export default function Home() {
           <div className="flex flex-col gap-8 items-start justify-center pl-0">
             <div className="flex flex-row gap-2 items-center">
               <img src="/waterloo.png" alt="University of Waterloo Logo" className="h-20 w-auto" />
-              <p className="text-base sm:text-lg lg:text-xl font-semibold uppercase tracking-[0.09em] text-[#6f6f6f] pl-3">
+              <p className="text-base sm:text-lg lg:text-xl font-semibold uppercase tracking-[0.07em] text-[#6f6f6f] pl-2">
                 University of Waterloo <br /> Faculty of Engineering
               </p>
             </div>
