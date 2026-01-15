@@ -1,20 +1,104 @@
 {
   "profiles": [
     {
-      "slug": "lucy-zhang",
-      "highSchool": "STR",
-      "name": "Lucy Zhang",
+      "slug": "lilia-ghazvinian",
+      "highSchool": "CCHS",
+      "name": "Lilia Ghazvinian",
       "stream": 8,
-      "photo": "/profiles/lucy-zhang.jpg",
-      "hometown": "Richmond Hill, ON",
-      "description": "love love love thrifting art&crafts good music yummy food running travelling did i mention thrifting ",
+      "photo": "/profiles/lilia-ghazvinian.jpg",
+      "hometown": "",
+      "description": "I love to draw, to learn, and to needlessly analyse pieces of media! ",
       "links": [{
           "label": "Instagram",
-          "href": "lucygoose815"
+          "href": "liliaghn"
         },
         {
           "label": "LinkedIn",
-          "href": "lucyzhang815"
+          "href": "lilia-ghazvinian"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }]
+    },
+    {
+      "slug": "tem-ninvoraskul",
+      "highSchool": "JCS",
+      "name": "Tem Ninvoraskul",
+      "stream": 8,
+      "photo": "/profiles/tem-ninvoraskul.png",
+      "hometown": "Bangkok, Thailand",
+      "description": "Occasionally good at designing things.",
+      "links": [{
+          "label": "Instagram",
+          "href": "t_temsss"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "tem-ninvoraskul"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }]
+    },
+    {
+      "slug": "kristen-florendo-cumbermack",
+      "highSchool": "LCSS",
+      "name": "Kristen Florendo Cumbermack",
+      "stream": 8,
+      "photo": "/profiles/kristen-florendo-cumbermack.jpg",
+      "hometown": "Komoka, ON",
+      "description": "𓇼 did you consult that dawg within? 𓂃 ོ☼𓂃",
+      "links": [{
+          "label": "Instagram",
+          "href": "k10_mack"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "kristencumbermack"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }]
+    },
+    {
+      "slug": "faiza-hasan",
+      "highSchool": "CCI",
+      "name": "Faiza Hasan",
+      "stream": 8,
+      "photo": "/profiles/faiza-hasan.jpeg",
+      "hometown": "Toronto, ON",
+      "description": "Hey guys! When I’m not rotting in bed I like to read books and watch movies! I’m always looking for a new hobby so if you have a cool one, hit me up!",
+      "links": [{
+          "label": "Instagram",
+          "href": "faizaa._h"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "faizahasan-"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }]
+    },
+    {
+      "slug": "sahil-takrani",
+      "highSchool": "CBSS",
+      "name": "Sahil Takrani",
+      "stream": 8,
+      "photo": "/profiles/sahil-takrani.jpeg",
+      "hometown": "Brampton, ON",
+      "description": "Really liked PHYS 115, but PHYS 115 did not like me back…",
+      "links": [{
+          "label": "Instagram",
+          "href": "sahiltakrani26"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "sahil-takrani-926b09363"
         },
         {
           "label": "Discord",
