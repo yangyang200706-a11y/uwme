@@ -2,7 +2,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[linear-gradient(135deg,_#fffbe6_60%,_#fdf6e3_100%)] text-[#1f1b18]">
+    <div className="min-h-screen bg-gradient-to-br from-purple-200 via-indigo-100 to-blue-100
+ text-[#1f1b18]">
       <div className="mx-auto flex min-h-screen w-full max-w-5xl flex-col px-6 pb-16 pt-10">
         <div className="mt-20 grid flex-1 items-center gap-20 lg:grid-cols-[1.2fr_0.8fr]">
           <div className="flex flex-col gap-8 items-start justify-center pl-0">

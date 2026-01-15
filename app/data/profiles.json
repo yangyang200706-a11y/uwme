@@ -1,6 +1,48 @@
 {
   "profiles": [
     {
+      "slug": "lucy-zhang",
+      "highSchool": "STR",
+      "name": "Lucy Zhang",
+      "stream": 8,
+      "photo": "/profiles/lucy-zhang.jpg",
+      "hometown": "Richmond Hill, ON",
+      "description": "love love love thrifting art&crafts good music yummy food running travelling did i mention thrifting ",
+      "links": [{
+          "label": "Instagram",
+          "href": "lucygoose815"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "lucyzhang815"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }]
+    },
+    {
+      "slug": "portia-foster-thompson",
+      "highSchool": "DHS",
+      "name": "Portia Foster-Thompson",
+      "stream": 8,
+      "photo": "/profiles/portia-foster-thompson.jpeg",
+      "hometown": "Darthmouth, NS",
+      "description": "I love drawing, reading and big scarves! Usually listening to punk music",
+      "links": [{
+          "label": "Instagram",
+          "href": "portiaamayft"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "portiafostert"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }]
+    },
+    {
       "slug": "marissa-elliott",
       "highSchool": "SWS",
       "name": "Marissa Elliott",

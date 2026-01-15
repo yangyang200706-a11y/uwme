@@ -108,7 +108,7 @@ export default function ClassProfilePage() {
   }, [query, streamFilter]);
 
   return (
-    <div className="min-h-screen bg-[linear-gradient(135deg,_#fffbe6_60%,_#fdf6e3_100%)] text-[#1f1b18]">
+    <div className="min-h-screen bg-[linear-gradient(135deg,_#f8f6ff_0%,_#f1f7ff_80%)]text-[#1f1b18]">
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-10 px-6 pb-20 pt-10">
         <section id="directory" className="flex flex-col gap-6">
           <div className="flex flex-wrap items-center justify-between gap-4">
@@ -159,9 +159,9 @@ export default function ClassProfilePage() {
             {filteredProfiles.map((profile) => (
               <div
                 key={profile.slug}
-                className="group flex h-full flex-col rounded-[24px] border border-[#e1dbd4] bg-white p-5 shadow-[0_14px_30px_rgba(60,50,40,0.08)] transition hover:-translate-y-1"
+                className="group flex h-full flex-col rounded-[24px] border border-[#c1b8be] bg-white p-5 shadow-[0_14px_30px_rgba(60,50,40,0.08)] transition hover:-translate-y-1"
               >
-                <div className="flex items-center gap-4">
+                <div className="flex items-start gap-4">
                   <img
                     src={profile.photo}
                     alt={`${profile.name} profile photo`}
