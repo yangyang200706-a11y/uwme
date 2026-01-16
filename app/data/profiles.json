@@ -6,7 +6,7 @@
       "name": "Myles Seckler",
       "stream": 8,
       "photo": "/profiles/myles-seckler.jpg",
-      "hometown": "Kittery, Maine, USA",
+      "hometown": "Kittery, USA",
       "description": "love traveling, outdoors, and alternative music. solidworks demon, transit nerd, and mediocre photographer and rock climber. ",
       "links": [{
           "label": "Instagram",
@@ -254,10 +254,6 @@
         {
           "label": "Discord",
           "href": ""
-        },
-        {
-          "label": "Website",
-          "href": "https://burymewithmymoney.com/"
         }
       ]
     },
@@ -375,31 +371,6 @@
           "href": "https://docs.google.com/document/d/1SDfk4EsUGjMBzKMmmyGVspBFkwx0yyYjeRTnQJ9f30k/edit?usp=drivesdk"
         }
       ]
-    },
-    {
-      "slug": "daniel-w-liu",
-      "highSchool": "STR",
-      "name": "Daniel W Liu",
-      "stream": 8,
-      "photo": "/profiles/daniel-w-liu.jpg",
-      "hometown": "Toronto, ON",
-      "description": "need myself some lazeez daily specials and a cs finance double major",
-      "links": [{
-          "label": "Instagram",
-          "href": ""
-        },
-        {
-          "label": "LinkedIn",
-          "href": ""
-        },
-        {
-          "label": "Discord",
-          "href": ""
-        },
-        {
-          "label": "Website",
-          "href": "https://danielwliu.com"
-        }]
     },
     {
       "slug": "ryan-ly",
