@@ -1,6 +1,27 @@
 {
   "profiles": [
     {
+      "slug": "myles-seckler",
+      "highSchool": "",
+      "name": "Myles Seckler",
+      "stream": 8,
+      "photo": "/profiles/myles-seckler.jpg",
+      "hometown": "Kittery, Maine, USA",
+      "description": "love traveling, outdoors, and alternative music. solidworks demon, transit nerd, and mediocre photographer and rock climber. ",
+      "links": [{
+          "label": "Instagram",
+          "href": "myles_seckler"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "myles-seckler"
+        },
+        {
+          "label": "Discord",
+          "href": "myles_s"
+        }]
+    },
+    {
       "slug": "lilia-ghazvinian",
       "highSchool": "CCHS",
       "name": "Lilia Ghazvinian",
@@ -301,7 +322,12 @@
         {
           "label": "Discord",
           "href": "kaigoodall"
-        }]
+        },
+        {
+          "label": "Website",
+          "href": "https://kai.space/"
+        }
+      ]
     },
     {
       "slug": "zhengxu-qian-(lucas)",
@@ -343,7 +369,12 @@
         {
           "label": "Discord",
           "href": "marshallahbrother"
-        }]
+        },
+        {
+          "label": "Portfolio",
+          "href": "https://docs.google.com/document/d/1SDfk4EsUGjMBzKMmmyGVspBFkwx0yyYjeRTnQJ9f30k/edit?usp=drivesdk"
+        }
+      ]
     },
     {
       "slug": "daniel-w-liu",
@@ -364,6 +395,10 @@
         {
           "label": "Discord",
           "href": ""
+        },
+        {
+          "label": "Website",
+          "href": "https://danielwliu.com"
         }]
     },
     {
@@ -385,7 +420,12 @@
         {
           "label": "Discord",
           "href": ""
-        }]
+        },
+        {
+          "label": "Website",
+          "href": "https://ryanly.carrd.co/"
+        }
+      ]
     },
     {
       "slug": "maaz-amir",
