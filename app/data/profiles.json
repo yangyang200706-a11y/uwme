@@ -106,6 +106,27 @@
         }]
     },
     {
+      "slug": "lucy-zhang",
+      "highSchool": "STR",
+      "name": "Lucy Zhang",
+      "stream": 8,
+      "photo": "/profiles/lucy-zhang.jpeg",
+      "hometown": "Richmond Hill, ON",
+      "description": "love love love thrifting art&crafts good music yummy food running travelling did i mention thrifting ",
+      "links": [{
+          "label": "Instagram",
+          "href": "lucygoose815"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "lucyzhang815"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }]
+    },
+    {
       "slug": "portia-foster-thompson",
       "highSchool": "DHS",
       "name": "Portia Foster-Thompson",
