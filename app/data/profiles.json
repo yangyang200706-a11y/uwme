@@ -1,6 +1,167 @@
 {
   "profiles": [
     {
+      "slug": "trevor-werbin",
+      "highSchool": "MDHS",
+      "name": "Trevor Werbin",
+      "stream": 8,
+      "photo": "/profiles/trevor-werbin.JPG",
+      "hometown": "Milton, ON",
+      "description": "Love eating good food, mountain biking and dogs (especially huskies and dachshunds).",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "trevorwerbin"
+        },
+        {
+          "label": "LinkedIn",
+          "href": ""
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "prakhar-mishra",
+      "highSchool": "WCS",
+      "name": "Prakhar Mishra",
+      "stream": 4,
+      "photo": "/profiles/prakhar-mishra.png",
+      "hometown": "Calgary, Alberta",
+      "description": "i love learning things, watching anime and scrolling reels",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "prakhar_mishra03"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "prakhar-mishra-72255a2a3"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "enidu-gardiya",
+      "highSchool": "MCI",
+      "name": "Enidu Gardiya",
+      "stream": 4,
+      "photo": "/profiles/enidu-gardiya.jpeg",
+      "hometown": "Brampton, Ontario",
+      "description": "I like learning new things, working out, and trying new foods.",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "enidu.g"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "enidu-gardiya"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "romir-tandon",
+      "highSchool": "LSS",
+      "name": "Romir Tandon",
+      "stream": 8,
+      "photo": "/profiles/romir-tandon.png",
+      "hometown": "Mississauga, Ontario",
+      "description": "I enjoy playing sports, listening to music, and learning new things.",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "romirtandon"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "romir-tandon"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "daniela-kukorowski",
+      "highSchool": "MDHS",
+      "name": "Daniela Kukorowski",
+      "stream": 4,
+      "photo": "/profiles/daniela-kukorowski.jpeg",
+      "hometown": "Milton, Ontario",
+      "description": "I love baking, crocheting, and exploring new hobbies.",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "daniela.kuk"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "daniela-kukorowski"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "jahnavi-sharma",
+      "highSchool": "WCI",
+      "name": "Jahnavi Sharma",
+      "stream": 8,
+      "photo": "/profiles/jahnavi-sharma.jpeg",
+      "hometown": "Vaughan, ON",
+      "description": "Hello! I like to build random things and talk about books and be outdoors. and watch space documentaries.",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "jahn.sharma"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "linkedin.com/in/jahnavi-sharma-237694329"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "medina-mcgregor",
+      "highSchool": null,
+      "name": "Medina McGregor",
+      "stream": 4,
+      "photo": "/profiles/medina-mcgregor.jpg",
+      "hometown": "Windsor, Ontario",
+      "description": "haii i loooove knitting, reading, baking, listening to music, and physics :P",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "dina.mcg"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/medina-mcgregor"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
       "slug": "myles-seckler",
       "highSchool": "",
       "name": "Myles Seckler",
@@ -8,7 +169,8 @@
       "photo": "/profiles/myles-seckler.JPG",
       "hometown": "Kittery, USA",
       "description": "love traveling, outdoors, and alternative music. solidworks demon, transit nerd, and mediocre photographer and rock climber. ",
-      "links": [{
+      "links": [
+        {
           "label": "Instagram",
           "href": "myles_seckler"
         },
@@ -19,7 +181,8 @@
         {
           "label": "Discord",
           "href": "myles_s"
-        }]
+        }
+      ]
     },
     {
       "slug": "lilia-ghazvinian",
@@ -29,7 +192,8 @@
       "photo": "/profiles/lilia-ghazvinian.jpg",
       "hometown": "",
       "description": "I love to draw, to learn, and to needlessly analyse pieces of media! ",
-      "links": [{
+      "links": [
+        {
           "label": "Instagram",
           "href": "liliaghn"
         },
@@ -40,7 +204,8 @@
         {
           "label": "Discord",
           "href": ""
-        }]
+        }
+      ]
     },
     {
       "slug": "tem-ninvoraskul",
@@ -50,7 +215,8 @@
       "photo": "/profiles/tem-ninvoraskul.png",
       "hometown": "Bangkok, Thailand",
       "description": "Occasionally good at designing things.",
-      "links": [{
+      "links": [
+        {
           "label": "Instagram",
           "href": "t_temsss"
         },
@@ -61,7 +227,8 @@
         {
           "label": "Discord",
           "href": ""
-        }]
+        }
+      ]
     },
     {
       "slug": "kristen-florendo-cumbermack",
@@ -71,7 +238,8 @@
       "photo": "/profiles/kristen-florendo-cumbermack.jpg",
       "hometown": "Komoka, ON",
       "description": "𓇼 did you consult that dawg within? 𓂃 ོ☼𓂃",
-      "links": [{
+      "links": [
+        {
           "label": "Instagram",
           "href": "k10_mack"
         },
@@ -82,7 +250,8 @@
         {
           "label": "Discord",
           "href": ""
-        }]
+        }
+      ]
     },
     {
       "slug": "faiza-hasan",
@@ -92,7 +261,8 @@
       "photo": "/profiles/faiza-hasan.jpeg",
       "hometown": "Toronto, ON",
       "description": "Hey guys! When I’m not rotting in bed I like to read books and watch movies! I’m always looking for a new hobby so if you have a cool one, hit me up!",
-      "links": [{
+      "links": [
+        {
           "label": "Instagram",
           "href": "faizaa._h"
         },
@@ -103,7 +273,8 @@
         {
           "label": "Discord",
           "href": ""
-        }]
+        }
+      ]
     },
     {
       "slug": "sahil-takrani",
@@ -113,7 +284,8 @@
       "photo": "/profiles/sahil-takrani.jpeg",
       "hometown": "Brampton, ON",
       "description": "Really liked PHYS 115, but PHYS 115 did not like me back…",
-      "links": [{
+      "links": [
+        {
           "label": "Instagram",
           "href": "sahiltakrani26"
         },
@@ -124,7 +296,8 @@
         {
           "label": "Discord",
           "href": ""
-        }]
+        }
+      ]
     },
     {
       "slug": "lucy-zhang",
@@ -134,7 +307,8 @@
       "photo": "/profiles/lucy-zhang.jpg",
       "hometown": "Richmond Hill, ON",
       "description": "love love love thrifting art&crafts good music yummy food running travelling did i mention thrifting ",
-      "links": [{
+      "links": [
+        {
           "label": "Instagram",
           "href": "lucygoose815"
         },
@@ -145,7 +319,8 @@
         {
           "label": "Discord",
           "href": ""
-        }]
+        }
+      ]
     },
     {
       "slug": "portia-foster-thompson",
@@ -155,7 +330,8 @@
       "photo": "/profiles/portia-foster-thompson.jpeg",
       "hometown": "Darthmouth, NS",
       "description": "I love drawing, reading and big scarves! Usually listening to punk music",
-      "links": [{
+      "links": [
+        {
           "label": "Instagram",
           "href": "portiaamayft"
         },
@@ -166,7 +342,8 @@
         {
           "label": "Discord",
           "href": ""
-        }]
+        }
+      ]
     },
     {
       "slug": "marissa-elliott",
@@ -176,7 +353,8 @@
       "photo": "/profiles/marissa-elliott.jpg",
       "hometown": "Hamillton, ON",
       "description": "Academic Rep! Lover of Harry Potter, Dashchunds, and Musical Theatre 😁",
-      "links": [{
+      "links": [
+        {
           "label": "Instagram",
           "href": "marissa_elliott22"
         },
@@ -187,7 +365,8 @@
         {
           "label": "Discord",
           "href": ""
-        }]
+        }
+      ]
     },
     {
       "slug": "nicholas-pogosoff",
@@ -197,7 +376,8 @@
       "photo": "/profiles/nicholas-pogosoff.jpg",
       "hometown": "Vaughan, ON",
       "description": "I was an 'I like math and science' student. I was not ready for MATH 115...",
-      "links": [{
+      "links": [
+        {
           "label": "Instagram",
           "href": "npogoo"
         },
@@ -208,7 +388,8 @@
         {
           "label": "Discord",
           "href": "spacebo"
-        }]
+        }
+      ]
     },
     {
       "slug": "ryan-kai-sum-wong",
@@ -218,7 +399,8 @@
       "photo": "/profiles/ryan-wong.png",
       "hometown": "Hong Kong, CHN",
       "description": "ibig fan of aerospace and medical tech and seals(the animal)",
-      "links": [{
+      "links": [
+        {
           "label": "Instagram",
           "href": "wks_ryan_"
         },
@@ -233,7 +415,8 @@
         {
           "label": "Website",
           "href": "https://www.ryankaisum.ca/"
-        }]
+        }
+      ]
     },
     {
       "slug": "isaac-wright",
@@ -243,7 +426,8 @@
       "photo": "/profiles/isaac-wright.jpeg",
       "hometown": "Barrie, ON",
       "description": "I want to own every Toyota matrix south of the border. Or own the moon",
-      "links": [{
+      "links": [
+        {
           "label": "Instagram",
           "href": "realisaacwright"
         },
@@ -265,7 +449,8 @@
       "photo": "/profiles/nabhan-ahmad.jpg",
       "hometown": null,
       "description": "I enjoy designing and building innovative systems",
-      "links": [{
+      "links": [
+        {
           "label": "Instagram",
           "href": ""
         },
@@ -276,7 +461,8 @@
         {
           "label": "Discord",
           "href": ""
-        }]
+        }
+      ]
     },
     {
       "slug": "jackie-shao",
@@ -286,7 +472,8 @@
       "photo": "/profiles/jackie-shao.jpg",
       "hometown": null,
       "description": "I am a licensed pilot and an aspiring aerospace or automative engineer. ",
-      "links": [{
+      "links": [
+        {
           "label": "Instagram",
           "href": "jackieee_shao"
         },
@@ -297,7 +484,8 @@
         {
           "label": "Discord",
           "href": ""
-        }]
+        }
+      ]
     },
     {
       "slug": "kai-goodall",
@@ -307,7 +495,8 @@
       "photo": "/profiles/kai-goodall.png",
       "hometown": "Ottawa, ON",
       "description": "Funding technical projects at merge.club and bagel.fund, building rockets at waterloo rocketry, touching grass infrequently",
-      "links": [{
+      "links": [
+        {
           "label": "Instagram",
           "href": "mcmgoodall"
         },
@@ -333,7 +522,8 @@
       "photo": "/profiles/zhengxu-qian-(lucas).jpg",
       "hometown": null,
       "description": "Likes strategy and turn-based games, gachas, open world rpgs and anime. ",
-      "links": [{
+      "links": [
+        {
           "label": "Instagram",
           "href": "lucasqianzhengxu"
         },
@@ -344,7 +534,8 @@
         {
           "label": "Discord",
           "href": ""
-        }]
+        }
+      ]
     },
     {
       "slug": "aditya-balaram",
@@ -354,7 +545,8 @@
       "photo": "/profiles/aditya-balaram.jpeg",
       "hometown": "Mississauga, ON",
       "description": "hey my name is Aditya Balaram and I enjoy spending time with family and friends, and learning new things. ",
-      "links": [{
+      "links": [
+        {
           "label": "Instagram",
           "href": "adib_237"
         },
@@ -380,7 +572,8 @@
       "photo": "/profiles/ryan-ly.jpeg",
       "hometown": "Toronto, ON",
       "description": "say hi if you see me around!!",
-      "links": [{
+      "links": [
+        {
           "label": "Instagram",
           "href": "ryan_ly12"
         },
@@ -406,7 +599,8 @@
       "photo": "/profiles/maaz-amir.jpeg",
       "hometown": null,
       "description": "I broke my nose when I was young",
-      "links": [{
+      "links": [
+        {
           "label": "Instagram",
           "href": "maazthegoat"
         },
@@ -417,7 +611,8 @@
         {
           "label": "Discord",
           "href": ""
-        }]
+        }
+      ]
     },
     {
       "slug": "abdurrahim-baradia",
@@ -427,7 +622,8 @@
       "photo": "/profiles/abdurrahim-baradia.jpg",
       "hometown": "Mombasa, Kenya",
       "description": "Love Zack Cramer",
-      "links": [{
+      "links": [
+        {
           "label": "Instagram",
           "href": "abdurrahim.baradia"
         },
@@ -438,7 +634,8 @@
         {
           "label": "Discord",
           "href": "abdurrahimbaradia"
-        }]
+        }
+      ]
     },
     {
       "slug": "julian-ly",
@@ -448,7 +645,8 @@
       "photo": "/profiles/julian-ly.jpeg",
       "hometown": "Toronto, ON",
       "description": "linear algebra enthusiast. kero kero bonito is life. ",
-      "links": [{
+      "links": [
+        {
           "label": "Instagram",
           "href": "julianly007"
         },
@@ -459,7 +657,8 @@
         {
           "label": "Discord",
           "href": "fredvanvleet"
-        }]
+        }
+      ]
     },
     {
       "slug": "shuyang-zhou",
@@ -469,7 +668,8 @@
       "photo": "/profiles/shuyang-zhou.jpg",
       "hometown": "Toronto, ON",
       "description": "Vibe code enthusiast. If you want to work on hackathons or design competitions, reach out.",
-      "links": [{
+      "links": [
+        {
           "label": "Instagram",
           "href": "shuyang_01"
         },
@@ -480,8 +680,12 @@
         {
           "label": "Discord",
           "href": "galacticmagnet"
-        }]
+        }
+      ]
     }
   ],
-  "streams": [4, 8]
+  "streams": [
+    4,
+    8
+  ]
 }
