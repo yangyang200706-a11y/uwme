@@ -48,12 +48,12 @@
     },
     {
       "slug": "enidu-gardiya",
-      "highSchool": "MCI",
+      "highSchool": "NDSS",
       "name": "Enidu Gardiya",
       "stream": 4,
       "photo": "/profiles/enidu-gardiya.jpeg",
-      "hometown": "Brampton, Ontario",
-      "description": "I like learning new things, working out, and trying new foods.",
+      "hometown": "Vancouver, BC",
+      "description": "If I could hike for the rest of my life that’s what I’d do. ",
       "links": [
         {
           "label": "Instagram",
@@ -71,12 +71,12 @@
     },
     {
       "slug": "romir-tandon",
-      "highSchool": "LSS",
+      "highSchool": "",
       "name": "Romir Tandon",
-      "stream": 8,
+      "stream": 4,
       "photo": "/profiles/romir-tandon.png",
-      "hometown": "Mississauga, Ontario",
-      "description": "I enjoy playing sports, listening to music, and learning new things.",
+      "hometown": "New Jersey, USA",
+      "description": "Hi, im Romir. Super passionate about anything space and love to lift!",
       "links": [
         {
           "label": "Instagram",
@@ -94,16 +94,16 @@
     },
     {
       "slug": "daniela-kukorowski",
-      "highSchool": "MDHS",
+      "highSchool": "",
       "name": "Daniela Kukorowski",
       "stream": 4,
       "photo": "/profiles/daniela-kukorowski.jpeg",
       "hometown": "Milton, Ontario",
-      "description": "I love baking, crocheting, and exploring new hobbies.",
+      "description": "Hi I’m Snapple 🍎 I like drawing, painting, pho, and bubble tea. 😎 My favourite colour is pink and I also like booster juice.",
       "links": [
         {
           "label": "Instagram",
-          "href": "daniela.kuk"
+          "href": "Danielakuko"
         },
         {
           "label": "LinkedIn",
@@ -117,7 +117,7 @@
     },
     {
       "slug": "jahnavi-sharma",
-      "highSchool": "WCI",
+      "highSchool": "HNSS",
       "name": "Jahnavi Sharma",
       "stream": 8,
       "photo": "/profiles/jahnavi-sharma.jpeg",
@@ -130,7 +130,7 @@
         },
         {
           "label": "LinkedIn",
-          "href": "linkedin.com/in/jahnavi-sharma-237694329"
+          "href": "jahnavi-sharma-237694329"
         },
         {
           "label": "Discord",
@@ -153,7 +153,7 @@
         },
         {
           "label": "LinkedIn",
-          "href": "https://www.linkedin.com/in/medina-mcgregor"
+          "href": "medina-mcgregor"
         },
         {
           "label": "Discord",
