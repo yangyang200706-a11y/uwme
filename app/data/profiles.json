@@ -1,6 +1,75 @@
 {
   "profiles": [
     {
+      "slug": "lukas-fleury",
+      "highSchool": "",
+      "name": "Lukas Fleury",
+      "stream": 4,
+      "photo": "/profiles/lukas-fleury.jpeg",
+      "hometown": "Cambridge, ON",
+      "description": "I love working-on and driving cars, machining, and always try to keep positive.",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "lukas_fleury_"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "suminsabinakim"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "clara-nomura",
+      "highSchool": "",
+      "name": "Clara Nomura",
+      "stream": 4,
+      "photo": "/profiles/clara-nomura.JPG",
+      "hometown": "Vancouver, BC",
+      "description": "Hiii I love baking, skiing and puzzles!",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "clara.nomura"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "clara-nomura"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "jiwon-lee",
+      "highSchool": "",
+      "name": "Jiwon Lee",
+      "stream": 4,
+      "photo": "/profiles/jiwon-lee.jpg",
+      "hometown": "Indonesia, Jakarta",
+      "description": "Ching chong",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "not_jiwon"
+        },
+        {
+          "label": "LinkedIn",
+          "href": ""
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
       "slug": "sabina-kim",
       "highSchool": "SHCHS",
       "name": "Sabina Kim",
