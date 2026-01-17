@@ -1,6 +1,144 @@
 {
   "profiles": [
     {
+      "slug": "sabina-kim",
+      "highSchool": "SHCHS",
+      "name": "Sabina Kim",
+      "stream": 8,
+      "photo": "/profiles/sabina-kim.jpg",
+      "hometown": "Newmarket, ON",
+      "description": "hi! i love tangerines, instruments, dancing, and the sky :)",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "sabinaskim"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "suminsabinakim"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "shiza-moosa",
+      "highSchool": "",
+      "name": "Shiza Moosa",
+      "stream": 8,
+      "photo": "/profiles/shiza-moosa.jpeg",
+      "hometown": "Toronto, Ontario",
+      "description": "hii i love meeting new people and trying new food!! ",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "shizamoosa"
+        },
+        {
+          "label": "LinkedIn",
+          "href": ""
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "kendra-lee",
+      "highSchool": "",
+      "name": "Kendra Lee",
+      "stream": 8,
+      "photo": "/profiles/kendra-lee.jpeg",
+      "hometown": "Vancouver, BC",
+      "description": "lego movie enthusiast 😼",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "ken_dra_lee"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "kendrawjlee"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "dania-surya",
+      "highSchool": "STFX",
+      "name": "Dania Surya",
+      "stream": 8,
+      "photo": "/profiles/dania-surya.jpeg",
+      "hometown": "Mississauga, ON",
+      "description": "I love bubble tea and ramen :D also lovee nature and travelling!!",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "dania_surya"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "dania-surya"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "jessica-cafiso",
+      "highSchool": "STMA",
+      "name": "Jessica Cafiso",
+      "stream": 8,
+      "photo": "/profiles/jessica-cafiso.webp",
+      "hometown": "Hamilton, Ontario",
+      "description": "hii! i love music and going shopping with money i dont have (p.s. y'all should join uwfe!)",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "jessicasc0514"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "jessicacafiso"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "adham-ibrahim",
+      "highSchool": "SWLSS",
+      "name": "Adham Ibrahim",
+      "stream": 8,
+      "photo": "/profiles/adham-ibrahim.jpeg",
+      "hometown": "London, Ontario",
+      "description": "I'm egyptian, a game pigeon demon and I love robotics and aviation.",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "adham_albasiony"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "adham-mech"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
       "slug": "trevor-werbin",
       "highSchool": "MDHS",
       "name": "Trevor Werbin",
