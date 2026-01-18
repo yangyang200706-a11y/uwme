@@ -1,6 +1,98 @@
 {
   "profiles": [
     {
+      "slug": "huaitian-zhang",
+      "highSchool": "ISCSHJ",
+      "name": "Huaitian Zhang",
+      "stream": 8,
+      "photo": "/profiles/huaitian-zhang.jpg",
+      "hometown": "Dubai, United Arab Emirates",
+      "description": "I occasionally borrow furniture from laurier. Also i am somehow your engsoc rep.",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "Natsukeeznuts"
+        },
+        {
+          "label": "LinkedIn",
+          "href": ""
+        },
+        {
+          "label": "Discord",
+          "href": "wc.nm"
+        }
+      ]
+    },
+    {
+      "slug": "michael-yarusevych",
+      "highSchool": "",
+      "name": "Michael Yarusevych",
+      "stream": 8,
+      "photo": "/profiles/michael-yarusevych.jpg",
+      "hometown": "Kitchener, ON",
+      "description": "I've been slacking and I didn't show up to two practices last week",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "mikeldapikel21"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "michael-yarusevych-052318311"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "nyle-kim",
+      "highSchool": "",
+      "name": "Nyle Kim",
+      "stream": 8,
+      "photo": "/profiles/nyle-kim.jpeg",
+      "hometown": "North Surrey, BC",
+      "description": "Hai! I’m Nyle Kim! I like reading manga (kawaii >~<) and i’m a mechanical engineering nerd (DUH 😅). btw.. i’m single rn.. so shoot me a message…",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": ""
+        },
+        {
+          "label": "LinkedIn",
+          "href": ""
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "henry-lee",
+      "highSchool": "EMS",
+      "name": "Henry Lee",
+      "stream": 8,
+      "photo": "/profiles/henry-lee.jpeg",
+      "hometown": "North Surrey, BC",
+      "description": "erm hey guys! >w< m..my names henry, and i love pokemon, working out and being horrendous at brawl stars. c..c.connect with me on brawl stars boi 🫱🫱",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "wasamigo64"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "henry-lee-a4271a279"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
       "slug": "lukas-fleury",
       "highSchool": "",
       "name": "Lukas Fleury",
@@ -15,7 +107,7 @@
         },
         {
           "label": "LinkedIn",
-          "href": "suminsabinakim"
+          "href": ""
         },
         {
           "label": "Discord",
@@ -52,7 +144,7 @@
       "name": "Jiwon Lee",
       "stream": 4,
       "photo": "/profiles/jiwon-lee.jpg",
-      "hometown": "Indonesia, Jakarta",
+      "hometown": "Jakarta, Indonesia",
       "description": "Ching chong",
       "links": [
         {
