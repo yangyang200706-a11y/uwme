@@ -1,44 +1,17 @@
 {
   "profiles": [
     {
-      "slug": "noah-oliver-pang",
-      "highSchool": "Van Tech",
-      "name": "Noah Oliver-Pang",
+      "slug": "abdurrahim-baradia",
+      "highSchool": "",
+      "name": "Abdurrahim Baradia",
       "stream": 4,
-      "photo": "/profiles/noah-oliver-pang.jpeg",
-      "hometown": "Vancouver, BC",
-      "description": "Forever building the most random projects you could ever think of.",
+      "photo": "/profiles/abdurrahim-baradia.jpg",
+      "hometown": "Mombasa, Kenya",
+      "description": "Love Zack Cramer",
       "links": [
         {
           "label": "Instagram",
-          "href": "noaholiverpang"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "noah-oliver-pang-142b47277"
-        },
-        {
-          "label": "Discord",
-          "href": "questionableengineering"
-        },
-        {
-          "label": "Website",
-          "href": "https://www.noaholiverpang.ca/"
-        }
-      ]
-    },
-    {
-      "slug": "matthew-eyre",
-      "highSchool": "SBA",
-      "name": "Matthew Eyre",
-      "stream": 8,
-      "photo": "/profiles/matthew-eyre.jpg",
-      "hometown": "Stouffville, ON",
-      "description": "I love playing piano, golf, lifting, and doing math :)",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": ""
+          "href": "abdurrahim.baradia"
         },
         {
           "label": "LinkedIn",
@@ -46,53 +19,7 @@
         },
         {
           "label": "Discord",
-          "href": ""
-        }
-      ]
-    },
-    {
-      "slug": "norah-petrou",
-      "highSchool": "CBSS",
-      "name": "Norah Petrou",
-      "stream": 8,
-      "photo": "/profiles/norah-petrou.jpg",
-      "hometown": "Ottawa, ON",
-      "description": "Imminently planning my move to the woods; fueled by good food and side quests.",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "_norahjayne"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "norah-petrou"
-        },
-        {
-          "label": "Discord",
-          "href": ""
-        }
-      ]
-    },
-    {
-      "slug": "joanie-hui",
-      "highSchool": "DHS",
-      "name": "Joanie Hui",
-      "stream": 4,
-      "photo": "/profiles/joanie-hui.jpeg",
-      "hometown": "California, USA",
-      "description": "hihii 👻 i love cats, good eats, and listening to music",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "_joani.3"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "joaniehui"
-        },
-        {
-          "label": "Discord",
-          "href": ""
+          "href": "abdurrahimbaradia"
         }
       ]
     },
@@ -112,6 +39,102 @@
         {
           "label": "LinkedIn",
           "href": ""
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "adham-ibrahim",
+      "highSchool": "SWLSS",
+      "name": "Adham Ibrahim",
+      "stream": 8,
+      "photo": "/profiles/adham-ibrahim.jpeg",
+      "hometown": "London, ON",
+      "description": "I'm egyptian, a game pigeon demon and I love robotics and aviation.",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "adham_albasiony"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "adham-mech"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "aditya-balaram",
+      "highSchool": "",
+      "name": "Aditya Balaram",
+      "stream": 8,
+      "photo": "/profiles/aditya-balaram.jpeg",
+      "hometown": "Mississauga, ON",
+      "description": "hey my name is Aditya Balaram and I enjoy spending time with family and friends, and learning new things. ",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "adib_237"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "aditya-balaram-008215367"
+        },
+        {
+          "label": "Discord",
+          "href": "marshallahbrother"
+        },
+        {
+          "label": "Portfolio",
+          "href": "https://docs.google.com/document/d/1SDfk4EsUGjMBzKMmmyGVspBFkwx0yyYjeRTnQJ9f30k/edit?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "slug": "daniela-kukorowski",
+      "highSchool": "",
+      "name": "Daniela Kukorowski",
+      "stream": 4,
+      "photo": "/profiles/daniela-kukorowski.jpeg",
+      "hometown": "Milton, ON",
+      "description": "Hi I’m Snapple 🍎 I like drawing, painting, pho, and bubble tea. 😎 My favourite colour is pink and I also like booster juice.",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "Danielakuko"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "daniela-kukorowski"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "dania-surya",
+      "highSchool": "STFX",
+      "name": "Dania Surya",
+      "stream": 8,
+      "photo": "/profiles/dania-surya.jpeg",
+      "hometown": "Mississauga, ON",
+      "description": "I love bubble tea and ramen :D also lovee nature and travelling!!",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "dania_surya"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "dania-surya"
         },
         {
           "label": "Discord",
@@ -147,44 +170,21 @@
       ]
     },
     {
-      "slug": "huaitian-zhang",
-      "highSchool": "ISCSHJ",
-      "name": "Huaitian Zhang",
-      "stream": 8,
-      "photo": "/profiles/huaitian-zhang.jpg",
-      "hometown": "Dubai, United Arab Emirates",
-      "description": "I occasionally borrow furniture from laurier. Also i am somehow your engsoc rep.",
+      "slug": "enidu-gardiya",
+      "highSchool": "NDSS",
+      "name": "Enidu Gardiya",
+      "stream": 4,
+      "photo": "/profiles/enidu-gardiya.jpeg",
+      "hometown": "Vancouver, BC",
+      "description": "If I could hike for the rest of my life that’s what I’d do. ",
       "links": [
         {
           "label": "Instagram",
-          "href": "Natsukeeznuts"
+          "href": "enidu.g"
         },
         {
           "label": "LinkedIn",
-          "href": ""
-        },
-        {
-          "label": "Discord",
-          "href": "wc.nm"
-        }
-      ]
-    },
-    {
-      "slug": "michael-yarusevych",
-      "highSchool": "",
-      "name": "Michael Yarusevych",
-      "stream": 8,
-      "photo": "/profiles/michael-yarusevych.jpg",
-      "hometown": "Kitchener, ON",
-      "description": "I've been slacking and I didn't show up to two practices last week",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "mikeldapikel21"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "michael-yarusevych-052318311"
+          "href": "enidu-gardiya"
         },
         {
           "label": "Discord",
@@ -193,21 +193,21 @@
       ]
     },
     {
-      "slug": "nyle-kim",
-      "highSchool": "",
-      "name": "Nyle Kim",
+      "slug": "faiza-hasan",
+      "highSchool": "CCI",
+      "name": "Faiza Hasan",
       "stream": 8,
-      "photo": "/profiles/nyle-kim.jpeg",
-      "hometown": "North Surrey, BC",
-      "description": "Hai! I’m Nyle Kim! I like reading manga (kawaii >~<) and i’m a mechanical engineering nerd (DUH 😅). btw.. i’m single rn.. so shoot me a message…",
+      "photo": "/profiles/faiza-hasan.jpeg",
+      "hometown": "Toronto, ON",
+      "description": "Hey guys! When I’m not rotting in bed I like to read books and watch movies! I’m always looking for a new hobby so if you have a cool one, hit me up!",
       "links": [
         {
           "label": "Instagram",
-          "href": ""
+          "href": "faizaa._h"
         },
         {
           "label": "LinkedIn",
-          "href": ""
+          "href": "faizahasan-"
         },
         {
           "label": "Discord",
@@ -239,17 +239,40 @@
       ]
     },
     {
-      "slug": "lukas-fleury",
-      "highSchool": "",
-      "name": "Lukas Fleury",
-      "stream": 4,
-      "photo": "/profiles/lukas-fleury.jpeg",
-      "hometown": "Cambridge, ON",
-      "description": "I love working-on and driving cars, machining, and always try to keep positive.",
+      "slug": "huaitian-zhang",
+      "highSchool": "ISCSHJ",
+      "name": "Huaitian Zhang",
+      "stream": 8,
+      "photo": "/profiles/huaitian-zhang.jpg",
+      "hometown": "Dubai, United Arab Emirates",
+      "description": "I occasionally borrow furniture from laurier. Also i am somehow your engsoc rep.",
       "links": [
         {
           "label": "Instagram",
-          "href": "lukas_fleury_"
+          "href": "Natsukeeznuts"
+        },
+        {
+          "label": "LinkedIn",
+          "href": ""
+        },
+        {
+          "label": "Discord",
+          "href": "wc.nm"
+        }
+      ]
+    },
+    {
+      "slug": "isaac-wright",
+      "highSchool": "BC",
+      "name": "Isaac Wright",
+      "stream": 4,
+      "photo": "/profiles/isaac-wright.jpeg",
+      "hometown": "Barrie, ON",
+      "description": "I want to own every Toyota matrix south of the border. Or own the moon",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "realisaacwright"
         },
         {
           "label": "LinkedIn",
@@ -262,21 +285,67 @@
       ]
     },
     {
-      "slug": "clara-nomura",
+      "slug": "jackie-shao",
       "highSchool": "",
-      "name": "Clara Nomura",
+      "name": "Jackie Shao",
       "stream": 4,
-      "photo": "/profiles/clara-nomura.JPG",
-      "hometown": "Vancouver, BC",
-      "description": "Hiii I love baking, skiing and puzzles!",
+      "photo": "/profiles/jackie-shao.jpg",
+      "hometown": null,
+      "description": "I am a licensed pilot and an aspiring aerospace or automative engineer. ",
       "links": [
         {
           "label": "Instagram",
-          "href": "clara.nomura"
+          "href": "jackieee_shao"
         },
         {
           "label": "LinkedIn",
-          "href": "clara-nomura"
+          "href": "jingkai-shao3"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "jahnavi-sharma",
+      "highSchool": "HNSS",
+      "name": "Jahnavi Sharma",
+      "stream": 8,
+      "photo": "/profiles/jahnavi-sharma.jpeg",
+      "hometown": "Vaughan, ON",
+      "description": "Hello! I like to build random things and talk about books and be outdoors. and watch space documentaries.",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "jahn.sharma"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "jahnavi-sharma-237694329"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "jessica-cafiso",
+      "highSchool": "STMA",
+      "name": "Jessica Cafiso",
+      "stream": 8,
+      "photo": "/profiles/jessica-cafiso.webp",
+      "hometown": "Hamilton, ON",
+      "description": "hii! i love music and going shopping with money i dont have (p.s. y'all should join uwfe!)",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "jessicasc0514"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "jessicacafiso"
         },
         {
           "label": "Discord",
@@ -300,6 +369,597 @@
         {
           "label": "LinkedIn",
           "href": ""
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "joanie-hui",
+      "highSchool": "DHS",
+      "name": "Joanie Hui",
+      "stream": 4,
+      "photo": "/profiles/joanie-hui.jpeg",
+      "hometown": "California, USA",
+      "description": "hihii 👻 i love cats, good eats, and listening to music",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "_joani.3"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "joaniehui"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "julian-ly",
+      "highSchool": "YMCI",
+      "name": "Julian Ly",
+      "stream": 8,
+      "photo": "/profiles/julian-ly.jpeg",
+      "hometown": "Toronto, ON",
+      "description": "linear algebra enthusiast. kero kero bonito is life. ",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "julianly007"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "julianly"
+        },
+        {
+          "label": "Discord",
+          "href": "fredvanvleet"
+        }
+      ]
+    },
+    {
+      "slug": "kai-goodall",
+      "highSchool": "Ashbury",
+      "name": "Kai Goodall",
+      "stream": 8,
+      "photo": "/profiles/kai-goodall.png",
+      "hometown": "Ottawa, ON",
+      "description": "Funding technical projects at merge.club and bagel.fund, building rockets at waterloo rocketry, touching grass infrequently",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "mcmgoodall"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "kaigoodall"
+        },
+        {
+          "label": "Discord",
+          "href": "kaigoodall"
+        },
+        {
+          "label": "Website",
+          "href": "https://kai.space/"
+        }
+      ]
+    },
+    {
+      "slug": "kendra-lee",
+      "highSchool": "",
+      "name": "Kendra Lee",
+      "stream": 8,
+      "photo": "/profiles/kendra-lee.jpeg",
+      "hometown": "Vancouver, BC",
+      "description": "lego movie enthusiast 😼",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "ken_dra_lee"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "kendrawjlee"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "kristen-florendo-cumbermack",
+      "highSchool": "LCSS",
+      "name": "Kristen Florendo Cumbermack",
+      "stream": 8,
+      "photo": "/profiles/kristen-florendo-cumbermack.jpg",
+      "hometown": "Komoka, ON",
+      "description": "𓇼 did you consult that dawg within? 𓂃 ོ☼𓂃",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "k10_mack"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "kristencumbermack"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "lilia-ghazvinian",
+      "highSchool": "CCHS",
+      "name": "Lilia Ghazvinian",
+      "stream": 8,
+      "photo": "/profiles/lilia-ghazvinian.jpg",
+      "hometown": "",
+      "description": "I love to draw, to learn, and to needlessly analyse pieces of media! ",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "liliaghn"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "lilia-ghazvinian"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "lucy-zhang",
+      "highSchool": "STR",
+      "name": "Lucy Zhang",
+      "stream": 8,
+      "photo": "/profiles/lucy-zhang.jpg",
+      "hometown": "Richmond Hill, ON",
+      "description": "love love love thrifting art&crafts good music yummy food running travelling did i mention thrifting ",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "lucygoose815"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "lucyzhang815"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "lukas-fleury",
+      "highSchool": "",
+      "name": "Lukas Fleury",
+      "stream": 4,
+      "photo": "/profiles/lukas-fleury.jpeg",
+      "hometown": "Cambridge, ON",
+      "description": "I love working-on and driving cars, machining, and always try to keep positive.",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "lukas_fleury_"
+        },
+        {
+          "label": "LinkedIn",
+          "href": ""
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "maaz-amir",
+      "highSchool": "",
+      "name": "Maaz Amir",
+      "stream": 4,
+      "photo": "/profiles/maaz-amir.jpeg",
+      "hometown": null,
+      "description": "I broke my nose when I was young",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "maazthegoat"
+        },
+        {
+          "label": "LinkedIn",
+          "href": ""
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "marissa-elliott",
+      "highSchool": "SWS",
+      "name": "Marissa Elliott",
+      "stream": 8,
+      "photo": "/profiles/marissa-elliott.jpg",
+      "hometown": "Hamillton, ON",
+      "description": "Academic Rep! Lover of Harry Potter, Dashchunds, and Musical Theatre 😁",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "marissa_elliott22"
+        },
+        {
+          "label": "LinkedIn",
+          "href": ""
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "matthew-eyre",
+      "highSchool": "SBA",
+      "name": "Matthew Eyre",
+      "stream": 8,
+      "photo": "/profiles/matthew-eyre.jpg",
+      "hometown": "Stouffville, ON",
+      "description": "I love playing piano, golf, lifting, and doing math :)",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": ""
+        },
+        {
+          "label": "LinkedIn",
+          "href": ""
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "medina-mcgregor",
+      "highSchool": null,
+      "name": "Medina McGregor",
+      "stream": 4,
+      "photo": "/profiles/medina-mcgregor.jpg",
+      "hometown": "Windsor, ON",
+      "description": "haii i loooove knitting, reading, baking, listening to music, and physics :P",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "dina.mcg"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "medina-mcgregor"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "michael-yarusevych",
+      "highSchool": "",
+      "name": "Michael Yarusevych",
+      "stream": 8,
+      "photo": "/profiles/michael-yarusevych.jpg",
+      "hometown": "Kitchener, ON",
+      "description": "I've been slacking and I didn't show up to two practices last week",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "mikeldapikel21"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "michael-yarusevych-052318311"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "myles-seckler",
+      "highSchool": "",
+      "name": "Myles Seckler",
+      "stream": 8,
+      "photo": "/profiles/myles-seckler.JPG",
+      "hometown": "Kittery, USA",
+      "description": "love traveling, outdoors, and alternative music. solidworks demon, transit nerd, and mediocre photographer and rock climber. ",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "myles_seckler"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "myles-seckler"
+        },
+        {
+          "label": "Discord",
+          "href": "myles_s"
+        }
+      ]
+    },
+    {
+      "slug": "nabhan-ahmad",
+      "highSchool": "SBCSS",
+      "name": "Nabhan Ahmad",
+      "stream": 8,
+      "photo": "/profiles/nabhan-ahmad.jpg",
+      "hometown": null,
+      "description": "I enjoy designing and building innovative systems",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": ""
+        },
+        {
+          "label": "LinkedIn",
+          "href": ""
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "nicholas-pogosoff",
+      "highSchool": "FB CHS",
+      "name": "Nicholas Pogosoff",
+      "stream": 4,
+      "photo": "/profiles/nicholas-pogosoff.jpg",
+      "hometown": "Vaughan, ON",
+      "description": "I was an 'I like math and science' student. I was not ready for MATH 115...",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "npogoo"
+        },
+        {
+          "label": "LinkedIn",
+          "href": ""
+        },
+        {
+          "label": "Discord",
+          "href": "spacebo"
+        }
+      ]
+    },
+    {
+      "slug": "noah-oliver-pang",
+      "highSchool": "Van Tech",
+      "name": "Noah Oliver-Pang",
+      "stream": 4,
+      "photo": "/profiles/noah-oliver-pang.jpeg",
+      "hometown": "Vancouver, BC",
+      "description": "Forever building the most random projects you could ever think of.",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "noaholiverpang"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "noah-oliver-pang-142b47277"
+        },
+        {
+          "label": "Discord",
+          "href": "questionableengineering"
+        },
+        {
+          "label": "Website",
+          "href": "https://www.noaholiverpang.ca/"
+        }
+      ]
+    },
+    {
+      "slug": "norah-petrou",
+      "highSchool": "CBSS",
+      "name": "Norah Petrou",
+      "stream": 8,
+      "photo": "/profiles/norah-petrou.jpg",
+      "hometown": "Ottawa, ON",
+      "description": "Imminently planning my move to the woods; fueled by good food and side quests.",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "_norahjayne"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "norah-petrou"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "nyle-kim",
+      "highSchool": "",
+      "name": "Nyle Kim",
+      "stream": 8,
+      "photo": "/profiles/nyle-kim.jpeg",
+      "hometown": "North Surrey, BC",
+      "description": "Hai! I’m Nyle Kim! I like reading manga (kawaii >~<) and i’m a mechanical engineering nerd (DUH 😅). btw.. i’m single rn.. so shoot me a message…",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": ""
+        },
+        {
+          "label": "LinkedIn",
+          "href": ""
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "portia-foster-thompson",
+      "highSchool": "DHS",
+      "name": "Portia Foster-Thompson",
+      "stream": 8,
+      "photo": "/profiles/portia-foster-thompson.jpeg",
+      "hometown": "Darthmouth, NS",
+      "description": "I love drawing, reading and big scarves! Usually listening to punk music",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "portiaamayft"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "portiafostert"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "prakhar-mishra",
+      "highSchool": "WCS",
+      "name": "Prakhar Mishra",
+      "stream": 4,
+      "photo": "/profiles/prakhar-mishra.png",
+      "hometown": "Calgary, Alberta",
+      "description": "i love learning things, watching anime and scrolling reels",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "prakhar_mishra03"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "prakhar-mishra-72255a2a3"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "romir-tandon",
+      "highSchool": "",
+      "name": "Romir Tandon",
+      "stream": 4,
+      "photo": "/profiles/romir-tandon.png",
+      "hometown": "New Jersey, USA",
+      "description": "Hi, im Romir. Super passionate about anything space and love to lift!",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "romirtandon"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "romir-tandon"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "ryan-kai-sum-wong",
+      "highSchool": "VSA",
+      "name": "Ryan Kai Sum Wong",
+      "stream": 8,
+      "photo": "/profiles/ryan-wong.png",
+      "hometown": "Hong Kong, CHN",
+      "description": "ibig fan of aerospace and medical tech and seals(the animal)",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "wks_ryan_"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "ryan-kai-sum-wong"
+        },
+        {
+          "label": "Discord",
+          "href": "sealoz"
+        },
+        {
+          "label": "Website",
+          "href": "https://www.ryankaisum.ca/"
+        }
+      ]
+    },
+    {
+      "slug": "ryan-ly",
+      "highSchool": "YMCI",
+      "name": "Ryan Ly",
+      "stream": 8,
+      "photo": "/profiles/ryan-ly.jpeg",
+      "hometown": "Toronto, ON",
+      "description": "say hi if you see me around!!",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "ryan_ly12"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "ryan-ly12"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        },
+        {
+          "label": "Website",
+          "href": "https://ryanly.carrd.co/"
+        }
+      ]
+    },
+    {
+      "slug": "sahil-takrani",
+      "highSchool": "CBSS",
+      "name": "Sahil Takrani",
+      "stream": 8,
+      "photo": "/profiles/sahil-takrani.jpeg",
+      "hometown": "Brampton, ON",
+      "description": "Really liked PHYS 115, but PHYS 115 did not like me back…",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "sahiltakrani26"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "sahil-takrani-926b09363"
         },
         {
           "label": "Discord",
@@ -354,90 +1014,44 @@
       ]
     },
     {
-      "slug": "kendra-lee",
-      "highSchool": "",
-      "name": "Kendra Lee",
+      "slug": "shuyang-zhou",
+      "highSchool": "YMCI",
+      "name": "Shuyang Zhou",
       "stream": 8,
-      "photo": "/profiles/kendra-lee.jpeg",
-      "hometown": "Vancouver, BC",
-      "description": "lego movie enthusiast 😼",
+      "photo": "/profiles/shuyang-zhou.jpg",
+      "hometown": "Toronto, ON",
+      "description": "Vibe code enthusiast. If you want to work on hackathons or design competitions, reach out.",
       "links": [
         {
           "label": "Instagram",
-          "href": "ken_dra_lee"
+          "href": "shuyang_01"
         },
         {
           "label": "LinkedIn",
-          "href": "kendrawjlee"
+          "href": "shuyangzhou"
         },
         {
           "label": "Discord",
-          "href": ""
+          "href": "galacticmagnet"
         }
       ]
     },
     {
-      "slug": "dania-surya",
-      "highSchool": "STFX",
-      "name": "Dania Surya",
+      "slug": "tem-ninvoraskul",
+      "highSchool": "JCS",
+      "name": "Tem Ninvoraskul",
       "stream": 8,
-      "photo": "/profiles/dania-surya.jpeg",
-      "hometown": "Mississauga, ON",
-      "description": "I love bubble tea and ramen :D also lovee nature and travelling!!",
+      "photo": "/profiles/tem-ninvoraskul.png",
+      "hometown": "Bangkok, Thailand",
+      "description": "Occasionally good at designing things.",
       "links": [
         {
           "label": "Instagram",
-          "href": "dania_surya"
+          "href": "t_temsss"
         },
         {
           "label": "LinkedIn",
-          "href": "dania-surya"
-        },
-        {
-          "label": "Discord",
-          "href": ""
-        }
-      ]
-    },
-    {
-      "slug": "jessica-cafiso",
-      "highSchool": "STMA",
-      "name": "Jessica Cafiso",
-      "stream": 8,
-      "photo": "/profiles/jessica-cafiso.webp",
-      "hometown": "Hamilton, ON",
-      "description": "hii! i love music and going shopping with money i dont have (p.s. y'all should join uwfe!)",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "jessicasc0514"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "jessicacafiso"
-        },
-        {
-          "label": "Discord",
-          "href": ""
-        }
-      ]
-    },
-    {
-      "slug": "adham-ibrahim",
-      "highSchool": "SWLSS",
-      "name": "Adham Ibrahim",
-      "stream": 8,
-      "photo": "/profiles/adham-ibrahim.jpeg",
-      "hometown": "London, ON",
-      "description": "I'm egyptian, a game pigeon demon and I love robotics and aviation.",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "adham_albasiony"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "adham-mech"
+          "href": "tem-ninvoraskul"
         },
         {
           "label": "Discord",
@@ -469,497 +1083,6 @@
       ]
     },
     {
-      "slug": "prakhar-mishra",
-      "highSchool": "WCS",
-      "name": "Prakhar Mishra",
-      "stream": 4,
-      "photo": "/profiles/prakhar-mishra.png",
-      "hometown": "Calgary, Alberta",
-      "description": "i love learning things, watching anime and scrolling reels",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "prakhar_mishra03"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "prakhar-mishra-72255a2a3"
-        },
-        {
-          "label": "Discord",
-          "href": ""
-        }
-      ]
-    },
-    {
-      "slug": "enidu-gardiya",
-      "highSchool": "NDSS",
-      "name": "Enidu Gardiya",
-      "stream": 4,
-      "photo": "/profiles/enidu-gardiya.jpeg",
-      "hometown": "Vancouver, BC",
-      "description": "If I could hike for the rest of my life that’s what I’d do. ",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "enidu.g"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "enidu-gardiya"
-        },
-        {
-          "label": "Discord",
-          "href": ""
-        }
-      ]
-    },
-    {
-      "slug": "romir-tandon",
-      "highSchool": "",
-      "name": "Romir Tandon",
-      "stream": 4,
-      "photo": "/profiles/romir-tandon.png",
-      "hometown": "New Jersey, USA",
-      "description": "Hi, im Romir. Super passionate about anything space and love to lift!",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "romirtandon"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "romir-tandon"
-        },
-        {
-          "label": "Discord",
-          "href": ""
-        }
-      ]
-    },
-    {
-      "slug": "daniela-kukorowski",
-      "highSchool": "",
-      "name": "Daniela Kukorowski",
-      "stream": 4,
-      "photo": "/profiles/daniela-kukorowski.jpeg",
-      "hometown": "Milton, ON",
-      "description": "Hi I’m Snapple 🍎 I like drawing, painting, pho, and bubble tea. 😎 My favourite colour is pink and I also like booster juice.",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "Danielakuko"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "daniela-kukorowski"
-        },
-        {
-          "label": "Discord",
-          "href": ""
-        }
-      ]
-    },
-    {
-      "slug": "jahnavi-sharma",
-      "highSchool": "HNSS",
-      "name": "Jahnavi Sharma",
-      "stream": 8,
-      "photo": "/profiles/jahnavi-sharma.jpeg",
-      "hometown": "Vaughan, ON",
-      "description": "Hello! I like to build random things and talk about books and be outdoors. and watch space documentaries.",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "jahn.sharma"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "jahnavi-sharma-237694329"
-        },
-        {
-          "label": "Discord",
-          "href": ""
-        }
-      ]
-    },
-    {
-      "slug": "medina-mcgregor",
-      "highSchool": null,
-      "name": "Medina McGregor",
-      "stream": 4,
-      "photo": "/profiles/medina-mcgregor.jpg",
-      "hometown": "Windsor, ON",
-      "description": "haii i loooove knitting, reading, baking, listening to music, and physics :P",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "dina.mcg"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "medina-mcgregor"
-        },
-        {
-          "label": "Discord",
-          "href": ""
-        }
-      ]
-    },
-    {
-      "slug": "myles-seckler",
-      "highSchool": "",
-      "name": "Myles Seckler",
-      "stream": 8,
-      "photo": "/profiles/myles-seckler.JPG",
-      "hometown": "Kittery, USA",
-      "description": "love traveling, outdoors, and alternative music. solidworks demon, transit nerd, and mediocre photographer and rock climber. ",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "myles_seckler"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "myles-seckler"
-        },
-        {
-          "label": "Discord",
-          "href": "myles_s"
-        }
-      ]
-    },
-    {
-      "slug": "lilia-ghazvinian",
-      "highSchool": "CCHS",
-      "name": "Lilia Ghazvinian",
-      "stream": 8,
-      "photo": "/profiles/lilia-ghazvinian.jpg",
-      "hometown": "",
-      "description": "I love to draw, to learn, and to needlessly analyse pieces of media! ",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "liliaghn"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "lilia-ghazvinian"
-        },
-        {
-          "label": "Discord",
-          "href": ""
-        }
-      ]
-    },
-    {
-      "slug": "tem-ninvoraskul",
-      "highSchool": "JCS",
-      "name": "Tem Ninvoraskul",
-      "stream": 8,
-      "photo": "/profiles/tem-ninvoraskul.png",
-      "hometown": "Bangkok, Thailand",
-      "description": "Occasionally good at designing things.",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "t_temsss"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "tem-ninvoraskul"
-        },
-        {
-          "label": "Discord",
-          "href": ""
-        }
-      ]
-    },
-    {
-      "slug": "kristen-florendo-cumbermack",
-      "highSchool": "LCSS",
-      "name": "Kristen Florendo Cumbermack",
-      "stream": 8,
-      "photo": "/profiles/kristen-florendo-cumbermack.jpg",
-      "hometown": "Komoka, ON",
-      "description": "𓇼 did you consult that dawg within? 𓂃 ོ☼𓂃",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "k10_mack"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "kristencumbermack"
-        },
-        {
-          "label": "Discord",
-          "href": ""
-        }
-      ]
-    },
-    {
-      "slug": "faiza-hasan",
-      "highSchool": "CCI",
-      "name": "Faiza Hasan",
-      "stream": 8,
-      "photo": "/profiles/faiza-hasan.jpeg",
-      "hometown": "Toronto, ON",
-      "description": "Hey guys! When I’m not rotting in bed I like to read books and watch movies! I’m always looking for a new hobby so if you have a cool one, hit me up!",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "faizaa._h"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "faizahasan-"
-        },
-        {
-          "label": "Discord",
-          "href": ""
-        }
-      ]
-    },
-    {
-      "slug": "sahil-takrani",
-      "highSchool": "CBSS",
-      "name": "Sahil Takrani",
-      "stream": 8,
-      "photo": "/profiles/sahil-takrani.jpeg",
-      "hometown": "Brampton, ON",
-      "description": "Really liked PHYS 115, but PHYS 115 did not like me back…",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "sahiltakrani26"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "sahil-takrani-926b09363"
-        },
-        {
-          "label": "Discord",
-          "href": ""
-        }
-      ]
-    },
-    {
-      "slug": "lucy-zhang",
-      "highSchool": "STR",
-      "name": "Lucy Zhang",
-      "stream": 8,
-      "photo": "/profiles/lucy-zhang.jpg",
-      "hometown": "Richmond Hill, ON",
-      "description": "love love love thrifting art&crafts good music yummy food running travelling did i mention thrifting ",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "lucygoose815"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "lucyzhang815"
-        },
-        {
-          "label": "Discord",
-          "href": ""
-        }
-      ]
-    },
-    {
-      "slug": "portia-foster-thompson",
-      "highSchool": "DHS",
-      "name": "Portia Foster-Thompson",
-      "stream": 8,
-      "photo": "/profiles/portia-foster-thompson.jpeg",
-      "hometown": "Darthmouth, NS",
-      "description": "I love drawing, reading and big scarves! Usually listening to punk music",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "portiaamayft"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "portiafostert"
-        },
-        {
-          "label": "Discord",
-          "href": ""
-        }
-      ]
-    },
-    {
-      "slug": "marissa-elliott",
-      "highSchool": "SWS",
-      "name": "Marissa Elliott",
-      "stream": 8,
-      "photo": "/profiles/marissa-elliott.jpg",
-      "hometown": "Hamillton, ON",
-      "description": "Academic Rep! Lover of Harry Potter, Dashchunds, and Musical Theatre 😁",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "marissa_elliott22"
-        },
-        {
-          "label": "LinkedIn",
-          "href": ""
-        },
-        {
-          "label": "Discord",
-          "href": ""
-        }
-      ]
-    },
-    {
-      "slug": "nicholas-pogosoff",
-      "highSchool": "FB CHS",
-      "name": "Nicholas Pogosoff",
-      "stream": 4,
-      "photo": "/profiles/nicholas-pogosoff.jpg",
-      "hometown": "Vaughan, ON",
-      "description": "I was an 'I like math and science' student. I was not ready for MATH 115...",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "npogoo"
-        },
-        {
-          "label": "LinkedIn",
-          "href": ""
-        },
-        {
-          "label": "Discord",
-          "href": "spacebo"
-        }
-      ]
-    },
-    {
-      "slug": "ryan-kai-sum-wong",
-      "highSchool": "VSA",
-      "name": "Ryan Kai Sum Wong",
-      "stream": 8,
-      "photo": "/profiles/ryan-wong.png",
-      "hometown": "Hong Kong, CHN",
-      "description": "ibig fan of aerospace and medical tech and seals(the animal)",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "wks_ryan_"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "ryan-kai-sum-wong"
-        },
-        {
-          "label": "Discord",
-          "href": "sealoz"
-        },
-        {
-          "label": "Website",
-          "href": "https://www.ryankaisum.ca/"
-        }
-      ]
-    },
-    {
-      "slug": "isaac-wright",
-      "highSchool": "BC",
-      "name": "Isaac Wright",
-      "stream": 4,
-      "photo": "/profiles/isaac-wright.jpeg",
-      "hometown": "Barrie, ON",
-      "description": "I want to own every Toyota matrix south of the border. Or own the moon",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "realisaacwright"
-        },
-        {
-          "label": "LinkedIn",
-          "href": ""
-        },
-        {
-          "label": "Discord",
-          "href": ""
-        }
-      ]
-    },
-    {
-      "slug": "nabhan-ahmad",
-      "highSchool": "SBCSS",
-      "name": "Nabhan Ahmad",
-      "stream": 8,
-      "photo": "/profiles/nabhan-ahmad.jpg",
-      "hometown": null,
-      "description": "I enjoy designing and building innovative systems",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": ""
-        },
-        {
-          "label": "LinkedIn",
-          "href": ""
-        },
-        {
-          "label": "Discord",
-          "href": ""
-        }
-      ]
-    },
-    {
-      "slug": "jackie-shao",
-      "highSchool": "",
-      "name": "Jackie Shao",
-      "stream": 4,
-      "photo": "/profiles/jackie-shao.jpg",
-      "hometown": null,
-      "description": "I am a licensed pilot and an aspiring aerospace or automative engineer. ",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "jackieee_shao"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "jingkai-shao3"
-        },
-        {
-          "label": "Discord",
-          "href": ""
-        }
-      ]
-    },
-    {
-      "slug": "kai-goodall",
-      "highSchool": "Ashbury",
-      "name": "Kai Goodall",
-      "stream": 8,
-      "photo": "/profiles/kai-goodall.png",
-      "hometown": "Ottawa, ON",
-      "description": "Funding technical projects at merge.club and bagel.fund, building rockets at waterloo rocketry, touching grass infrequently",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "mcmgoodall"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "kaigoodall"
-        },
-        {
-          "label": "Discord",
-          "href": "kaigoodall"
-        },
-        {
-          "label": "Website",
-          "href": "https://kai.space/"
-        }
-      ]
-    },
-    {
       "slug": "zhengxu-qian-(lucas)",
       "highSchool": "",
       "name": "Zhengxu Qian (Lucas)",
@@ -979,152 +1102,6 @@
         {
           "label": "Discord",
           "href": ""
-        }
-      ]
-    },
-    {
-      "slug": "aditya-balaram",
-      "highSchool": "",
-      "name": "Aditya Balaram",
-      "stream": 8,
-      "photo": "/profiles/aditya-balaram.jpeg",
-      "hometown": "Mississauga, ON",
-      "description": "hey my name is Aditya Balaram and I enjoy spending time with family and friends, and learning new things. ",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "adib_237"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "aditya-balaram-008215367"
-        },
-        {
-          "label": "Discord",
-          "href": "marshallahbrother"
-        },
-        {
-          "label": "Portfolio",
-          "href": "https://docs.google.com/document/d/1SDfk4EsUGjMBzKMmmyGVspBFkwx0yyYjeRTnQJ9f30k/edit?usp=drivesdk"
-        }
-      ]
-    },
-    {
-      "slug": "ryan-ly",
-      "highSchool": "YMCI",
-      "name": "Ryan Ly",
-      "stream": 8,
-      "photo": "/profiles/ryan-ly.jpeg",
-      "hometown": "Toronto, ON",
-      "description": "say hi if you see me around!!",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "ryan_ly12"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "ryan-ly12"
-        },
-        {
-          "label": "Discord",
-          "href": ""
-        },
-        {
-          "label": "Website",
-          "href": "https://ryanly.carrd.co/"
-        }
-      ]
-    },
-    {
-      "slug": "maaz-amir",
-      "highSchool": "",
-      "name": "Maaz Amir",
-      "stream": 4,
-      "photo": "/profiles/maaz-amir.jpeg",
-      "hometown": null,
-      "description": "I broke my nose when I was young",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "maazthegoat"
-        },
-        {
-          "label": "LinkedIn",
-          "href": ""
-        },
-        {
-          "label": "Discord",
-          "href": ""
-        }
-      ]
-    },
-    {
-      "slug": "abdurrahim-baradia",
-      "highSchool": "",
-      "name": "Abdurrahim Baradia",
-      "stream": 4,
-      "photo": "/profiles/abdurrahim-baradia.jpg",
-      "hometown": "Mombasa, Kenya",
-      "description": "Love Zack Cramer",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "abdurrahim.baradia"
-        },
-        {
-          "label": "LinkedIn",
-          "href": ""
-        },
-        {
-          "label": "Discord",
-          "href": "abdurrahimbaradia"
-        }
-      ]
-    },
-    {
-      "slug": "julian-ly",
-      "highSchool": "YMCI",
-      "name": "Julian Ly",
-      "stream": 8,
-      "photo": "/profiles/julian-ly.jpeg",
-      "hometown": "Toronto, ON",
-      "description": "linear algebra enthusiast. kero kero bonito is life. ",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "julianly007"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "julianly"
-        },
-        {
-          "label": "Discord",
-          "href": "fredvanvleet"
-        }
-      ]
-    },
-    {
-      "slug": "shuyang-zhou",
-      "highSchool": "YMCI",
-      "name": "Shuyang Zhou",
-      "stream": 8,
-      "photo": "/profiles/shuyang-zhou.jpg",
-      "hometown": "Toronto, ON",
-      "description": "Vibe code enthusiast. If you want to work on hackathons or design competitions, reach out.",
-      "links": [
-        {
-          "label": "Instagram",
-          "href": "shuyang_01"
-        },
-        {
-          "label": "LinkedIn",
-          "href": "shuyangzhou"
-        },
-        {
-          "label": "Discord",
-          "href": "galacticmagnet"
         }
       ]
     }
