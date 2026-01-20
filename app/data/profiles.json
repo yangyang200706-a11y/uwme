@@ -1,6 +1,152 @@
 {
   "profiles": [
     {
+      "slug": "noah-oliver-pang",
+      "highSchool": "Van Tech",
+      "name": "Noah Oliver-Pang",
+      "stream": 4,
+      "photo": "/profiles/noah-oliver-pang.jpeg",
+      "hometown": "Vancouver, BC",
+      "description": "Forever building the most random projects you could ever think of.",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "noaholiverpang"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "noah-oliver-pang-142b47277"
+        },
+        {
+          "label": "Discord",
+          "href": "questionableengineering"
+        },
+        {
+          "label": "Website",
+          "href": "https://www.noaholiverpang.ca/"
+        }
+      ]
+    },
+    {
+      "slug": "matthew-eyre",
+      "highSchool": "SBA",
+      "name": "Matthew Eyre",
+      "stream": 8,
+      "photo": "/profiles/matthew-eyre.jpg",
+      "hometown": "Stouffville, ON",
+      "description": "I love playing piano, golf, lifting, and doing math :)",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": ""
+        },
+        {
+          "label": "LinkedIn",
+          "href": ""
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "norah-petrou",
+      "highSchool": "CBSS",
+      "name": "Norah Petrou",
+      "stream": 8,
+      "photo": "/profiles/norah-petrou.jpg",
+      "hometown": "Ottawa, ON",
+      "description": "Imminently planning my move to the woods; fueled by good food and side quests.",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "_norahjayne"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "norah-petrou"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "joanie-hui",
+      "highSchool": "DHS",
+      "name": "Joanie Hui",
+      "stream": 4,
+      "photo": "/profiles/joanie-hui.jpeg",
+      "hometown": "California, USA",
+      "description": "hihii 👻 i love cats, good eats, and listening to music",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "_joani.3"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "joaniehui"
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "aaryan-wadhwa",
+      "highSchool": "BNSS",
+      "name": "Aaryan Wadhwa",
+      "stream": 8,
+      "photo": "/profiles/aaryan-wadhwa.jpeg",
+      "hometown": "Vancouver, BC",
+      "description": "I love music and being active. I play basketball and I snowboard.",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "aaryanwadhwa_"
+        },
+        {
+          "label": "LinkedIn",
+          "href": ""
+        },
+        {
+          "label": "Discord",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "slug": "danyal-gu",
+      "highSchool": "L.C.S.S",
+      "name": "Danyal Gu",
+      "stream": 8,
+      "photo": "/profiles/danyal-gu.jpeg",
+      "hometown": "London, ON",
+      "description": "I’m a first-year Mechanical Engineering student passionate about automotive design and 3D printing.",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "danyalgu7"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "danyalgu"
+        },
+        {
+          "label": "Discord",
+          "href": "dan0624."
+        },
+        {
+          "label": "Portfolio",
+          "href": "https://www.canva.com/design/DAG-Lncyjg4/7cBlT68gu-M2jDkrWFx1Mw/view?utm_content=DAG-Lncyjg4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hdd0cc073a8"
+        }
+      ]
+    },
+    {
       "slug": "huaitian-zhang",
       "highSchool": "ISCSHJ",
       "name": "Huaitian Zhang",
