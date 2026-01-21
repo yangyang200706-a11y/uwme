@@ -91,6 +91,17 @@ const socialIcons: Record<string, JSX.Element> = {
   ),
 };
 
+const academicRepNames = new Set([
+  "Marissa Elliott",
+  "Jessica Cafiso",
+  "Tem Ninvoraskul",
+  "Kobe",
+]);
+
+const academicRepFirstNames = new Set(["Marissa", "Jessica", "Tem", "Kobe"]);
+
+const engSocRepNames = new Set(["Huaitian Zhang", "Huaitian"]);
+
 export default function ClassProfilePage() {
   const [query, setQuery] = useState("");
   const [streamFilter, setStreamFilter] = useState<"all" | "4" | "8">("all");
@@ -168,8 +179,29 @@ export default function ClassProfilePage() {
                     className="h-20 w-20 rounded-[18px] object-cover"
                   />
                   <div>
-                    <h3 className="text-xl font-semibold text-[#1f1b18]">
-                      {profile.name}
+                    <h3 className="flex items-center gap-2 text-xl font-semibold text-[#1f1b18]">
+                      <span>{profile.name}</span>
+                      {engSocRepNames.has(profile.name) && (
+                        <span
+                          className="inline-flex items-center text-purple-500"
+                          aria-label="EngSoc Rep"
+                          title="EngSoc Rep"
+                        >
+                          ★
+                        </span>
+                      )}
+                      {(academicRepNames.has(profile.name) ||
+                        academicRepFirstNames.has(
+                          profile.name.split(" ")[0] ?? ""
+                        )) && (
+                        <span
+                          className="inline-flex items-center text-[#d4a017]"
+                          aria-label="Academic Rep"
+                          title="Academic Rep"
+                        >
+                          ★
+                        </span>
+                      )}
                     </h3>
                     <p className="text-sm text-[#6f645b] flex items-center gap-2">
                       {profile.stream === 4 ? "S4" : "S8"}
