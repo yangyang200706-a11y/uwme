@@ -1043,7 +1043,7 @@
             "stream": 8,
             "photo": "/profiles/shuyang-zhou.jpg",
             "hometown": "Toronto, ON",
-            "description": "Vibe code enthusiast. If you want to work on hackathons or design competitions, reach out.",
+            "description": "Love making cool projects. I made this website!",
             "links": [
                 {
                     "label": "Instagram",
@@ -1056,6 +1056,10 @@
                 {
                     "label": "Discord",
                     "href": "galacticmagnet"
+                },
+                {
+                    "label": "Website",
+                    "href": "https://shuyang-zhou.vercel.app/"
                 }
             ]
         },
