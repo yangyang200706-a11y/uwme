@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-200 via-indigo-100 to-blue-100
+    <div className="min-h-screen bg-green-200
  text-[#1f1b18]">
       <div className="mx-auto flex min-h-screen w-full max-w-5xl flex-col px-6 pb-16 pt-10">
         <div className="mt-20 grid flex-1 items-center gap-20 lg:grid-cols-[1.2fr_0.8fr]">
@@ -13,10 +13,7 @@ export default function Home() {
                 University of Waterloo <br /> Faculty of Engineering
               </p>
             </div>
-            <Link
-              href="/class-profile"
-              className="group"
-            >
+            <Link href="/mech-eng-31" className="group">
               <h1
                 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight drop-shadow-lg text-left ml-[-0.5rem]
                transition group-hover:opacity-90"
@@ -33,7 +30,7 @@ style={{ fontFamily: '"Segoe UI", "Helvetica Neue", Arial, sans-serif' }}
              transition-transform group-hover:-translate-y-0.5"
                   style={{ color: '#2d1e5e' }}
                 >
-                  MECH ENG ’30
+                  MECH ENG ’31
                 </span>
 
                 <span
@@ -41,19 +38,18 @@ style={{ fontFamily: '"Segoe UI", "Helvetica Neue", Arial, sans-serif' }}
              transition-transform group-hover:-translate-y-0.5"
                   style={{ color: '#9575cd' }}
                 >
-                  CLASS PROFILE
+                  CLASS PROFILES
                 </span>
-                <span
-                  className="mt-2 block text-xs sm:text-sm font-medium tracking-wide
-                 text-[#6f63b6] opacity-80
-                 transition-opacity group-hover:opacity-100"
-                >
-                  (click to view profiles!)
-                </span>
-
               </h1>
             </Link>
-
+            <div className="mt-8 flex w-full max-w-sm flex-col gap-3">
+              <Link
+                href="/class-profile"
+                className="text-sm font-semibold uppercase tracking-[0.2em] text-[#244d3a] transition hover:text-[#193b2c]"
+              >
+                Mech Eng ’30 Profiles
+              </Link>
+            </div>
 
           </div>
 

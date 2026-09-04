@@ -38,7 +38,7 @@ type Profile = {
   links: ProfileLink[];
 };
 
-const { profiles, streams } = profilesData as {
+export type ProfilesData = {
   profiles: Profile[];
   streams: Array<4 | 8>;
 };
@@ -102,7 +102,12 @@ const academicRepFirstNames = new Set(["Marissa", "Jessica", "Tem", "Kobe"]);
 
 const engSocRepNames = new Set(["Huaitian Zhang", "Huaitian"]);
 
-export default function ClassProfilePage() {
+export function ClassProfileDirectory({
+  data,
+}: {
+  data?: ProfilesData;
+}) {
+  const { profiles, streams } = (data ?? profilesData) as ProfilesData;
   const [query, setQuery] = useState("");
   const [streamFilter, setStreamFilter] = useState<"all" | "4" | "8">("all");
 
@@ -116,7 +121,7 @@ export default function ClassProfilePage() {
         streamFilter === "all" || String(profile.stream) === streamFilter;
       return matchesQuery && matchesStream;
     });
-  }, [query, streamFilter]);
+  }, [profiles, query, streamFilter]);
 
   return (
     <div className="min-h-screen bg-[linear-gradient(135deg,_#f8f6ff_0%,_#f1f7ff_80%)]text-[#1f1b18]">
@@ -359,4 +364,8 @@ export default function ClassProfilePage() {
       </div>
     </div>
   );
+}
+
+export default function ClassProfilePage() {
+  return <ClassProfileDirectory />;
 }
