@@ -8,6 +8,9 @@ import profilesData from "../data/profiles-31.json";
 
 export default function MechEng31Page() {
   return (
-    <ClassProfileDirectory data={profilesData as unknown as ProfilesData} />
+  <ClassProfileDirectory
+    data={profilesData as unknown as ProfilesData}
+    showSubmitButton
+  />
   );
 }

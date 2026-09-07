@@ -104,8 +104,10 @@ const engSocRepNames = new Set(["Huaitian Zhang", "Huaitian"]);
 
 export function ClassProfileDirectory({
   data,
+  showSubmitButton = false,
 }: {
   data?: ProfilesData;
+  showSubmitButton?: boolean;
 }) {
   const { profiles, streams } = (data ?? profilesData) as ProfilesData;
   const [query, setQuery] = useState("");
@@ -167,6 +169,18 @@ export function ClassProfileDirectory({
                     </option>
                   ))}
                 </select>
+                
+                {showSubmitButton && (
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScvz-lpq5LQxnGUU-ra0FapUCati4XK7Kdbsnz5R4bQ2_czkg/viewform?usp=dialog"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="rounded-full bg-[#1f1b18] px-5 py-2 text-sm font-semibold text-white transition hover:bg-[#3a332e]"
+                  >
+                    Submit Your Profile
+                  </a>
+                )}
+
               </div>
             </div>
           </div>
