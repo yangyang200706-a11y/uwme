@@ -30,7 +30,7 @@ style={{ fontFamily: '"Segoe UI", "Helvetica Neue", Arial, sans-serif' }}
              transition-transform group-hover:-translate-y-0.5"
                   style={{ color: '#2d1e5e' }}
                 >
-                  MECH ENG ’31 TEST
+                  MECH ENG ’31
                 </span>
 
                 <span

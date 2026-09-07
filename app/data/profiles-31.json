@@ -1,4 +1,28 @@
 {
-  "profiles": [],
+  "profiles": [
+    {
+      "slug": "david-zhou",
+      "name": "David Zhou",
+      "stream": 4,
+      "photo": "/profiles/mech-eng-31/david-zhou.jpg",
+      "description": "I'm really passionate about piano; I've been playing for 12 years now and I don't plan on stopping during my time at Waterloo. I enjoy classical music, but I also like Laufey and NewJeans. My favourite food is Portuguese Boiled Octopus or Francesinha, and my favourite game is Clair-Obscur: Expedition 33.",
+      "highSchool": "Marianopolis College",
+      "hometown": "Montréal, Québec",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "https://www.instagram.com/davidz412294/"
+        },
+        {
+          "label": "Discord",
+          "href": "davidz412294"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/david-zhou-95029b327/"
+        }
+      ]
+    }
+  ],
   "streams": [4, 8]
 }
