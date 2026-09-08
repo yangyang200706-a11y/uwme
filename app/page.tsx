@@ -2,14 +2,16 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-green-200
- text-[#1f1b18]">
+    <div
+  className="min-h-screen bg-cover bg-center bg-no-repeat text-[#1f1b18]"
+  style={{ backgroundImage: 'url("/BACKGROUND.jpg")' }}
+>
       <div className="mx-auto flex min-h-screen w-full max-w-5xl flex-col px-6 pb-16 pt-10">
-        <div className="mt-20 grid flex-1 items-center gap-20 lg:grid-cols-[1.2fr_0.8fr]">
+        <div className="mt-5 grid flex-1 items-center gap-20 lg:grid-cols-[1.2fr_0.8fr]">
           <div className="flex flex-col gap-8 items-start justify-center pl-0">
-            <div className="flex flex-row gap-2 items-center">
+            <div className="flex flex-row gap-2 items-center -translate-y-50 -translate-x-55">
               <img src="/waterloo.png" alt="University of Waterloo Logo" className="h-20 w-auto" />
-              <p className="text-base sm:text-lg lg:text-xl font-semibold uppercase tracking-[0.07em] text-[#6f6f6f] pl-2">
+              <p className="text-base sm:text-lg lg:text-xl font-semibold uppercase tracking-[0.07em] text-white pl-2">
                 University of Waterloo <br /> Faculty of Engineering
               </p>
             </div>
@@ -18,12 +20,6 @@ export default function Home() {
                 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight drop-shadow-lg text-left ml-[-0.5rem]
                transition group-hover:opacity-90"
 style={{ fontFamily: '"Segoe UI", "Helvetica Neue", Arial, sans-serif' }}
-
-
-
-
-
-
               >
                 <span
                   className="block whitespace-nowrap text-[1em] sm:text-[1.05em]
@@ -45,7 +41,7 @@ style={{ fontFamily: '"Segoe UI", "Helvetica Neue", Arial, sans-serif' }}
             <div className="mt-8 flex w-full max-w-sm flex-col gap-3">
               <Link
                 href="/class-profile"
-                className="text-sm font-semibold uppercase tracking-[0.2em] text-[#244d3a] transition hover:text-[#193b2c]"
+                className="text-sm font-semibold uppercase tracking-[0.2em] text-[#F5F0E8] transition hover:text-white -translate-y-12"
               >
                 Mech Eng ’30 Profiles
               </Link>
@@ -55,19 +51,42 @@ style={{ fontFamily: '"Segoe UI", "Helvetica Neue", Arial, sans-serif' }}
 
           {/* UWME Logo */}
           <Link href="/class-profile">
-            <div className="cursor-pointer">
+             <div className="cursor-pointer text-center -translate-y-55 translate-x-90">
               <img
                 src="/uwmelogo.png"
                 alt="University of Waterloo Mech Eng Logo"
-                className="h-full w-full object-contain" 
+                className="h-full w-full object-contain"
               />
+              <p className="mt-3 text-sm font-medium text-black">
+                New logo coming soon!
+              </p>
             </div>
           </Link>
 
         </div>
 
         <footer className="mt-16 text-xs uppercase tracking-[0.3em] text-[#8c7f73]">
-          Mechanical Engineering Class of 2030 - Logo by Myles Seckler
+          <p>Mechanical Engineering Class of 2030 - Logo by Myles Seckler</p>
+          <p className="mt-2 normal-case tracking-normal">
+            Background photo by{" "}
+            <a
+              href="https://commons.wikimedia.org/w/index.php?curid=86543830"
+              target="_blank"
+              rel="noreferrer"
+              className="underline hover:opacity-70"
+            >
+              Maplefirst
+            </a>{" "}
+            — Own work,{" "}
+            <a
+              href="https://creativecommons.org/licenses/by-sa/4.0/"
+              target="_blank"
+              rel="noreferrer"
+              className="underline hover:opacity-70"
+            >
+              CC BY-SA 4.0
+            </a>
+          </p>
         </footer>
       </div>
     </div>

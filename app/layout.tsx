@@ -15,8 +15,8 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "Mechanical Engineering Class of 2030",
-  description: "Student profiles for the Mechanical Engineering Class of 2030.",
+  title: "Mechanical Engineering Class of 2031",
+  description: "Student profiles for the Mechanical Engineering Class of 2031.",
 };
 
 
