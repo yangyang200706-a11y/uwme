@@ -11,7 +11,7 @@
       "links": [
         {
           "label": "Instagram",
-          "href": "https://www.instagram.com/davidz412294/"
+          "href": "davidz412294"
         },
         {
           "label": "Discord",
@@ -19,7 +19,30 @@
         },
         {
           "label": "LinkedIn",
-          "href": "https://www.linkedin.com/in/david-zhou-95029b327/"
+          "href": "david-zhou-95029b327"
+        }
+      ]
+    },
+    {
+      "slug": "harrison-yang",
+      "name": "Harrison Yang",
+      "stream": 8,
+      "photo": "/profiles/mech-eng-31/harrison-yang.jpeg",
+      "description": "Hi, I’m Harrison. I am in mechanical engineering. I play tennis and basketball. I am actually Taiwanese.",
+      "highSchool": "Claremont Secondary School",
+      "hometown": "Victoria, BC",
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "harrison_yang24"
+        },
+        {
+          "label": "Discord",
+          "href": "harrisonowo"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "harrison-yang-1872b8432"
         }
       ]
     }
