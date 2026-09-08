@@ -45,7 +45,65 @@
           "href": "harrison-yang-1872b8432"
         }
       ]
+    },
+
+    {
+      "slug": "jacob-lang",
+
+      "name": "Jacob Lang",
+
+      "stream": 4,
+
+      "photo": "/profiles/mech-eng-31/jacob-lang.jpg",
+
+      "description": "I like puzzles and generally all things engineering. I play video games too and have some Rubik's Cube talent. Lowkey down to do most things.",
+
+      "highSchool": "STEM Innovation Academy High School",
+
+      "hometown": "Calgary, Alberta",
+
+      "links": [
+        {
+          "label": "Instagram",
+          "href": ".rhombicosidodecahedrons"
+        },
+        {
+          "label": "Discord",
+          "href": "rhombicosidodecahedrons"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "jacob-lang-b58315257"
+        }
+      ]
+    },
+    {
+      "slug": "nikola-blagoev",
+
+      "name": "Nikola Blagoev",
+
+      "stream": 8,
+
+      "photo": "/profiles/mech-eng-31/nikola-blagoev.jpg",
+
+      "description": "I love swimming and watching Formula 1. I like playing many sports and board games. I enjoy a variety of TV shows and movies, especially Star Wars and Attack on Titan. I also enjoy online games like Valorant and GTA V. My favorite food is shawarma, and I'm pretty social and enjoy hanging out and doing activities with other people.",
+
+      "highSchool": "Thornhill Secondary School",
+
+      "hometown": "Vaughan, Ontario",
+
+      "links": [
+        {
+          "label": "Instagram",
+          "href": "Nikadude"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "nikola-b-75b535359"
+        }
+      ]
     }
+
   ],
   "streams": [4, 8]
 }
