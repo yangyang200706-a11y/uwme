@@ -102,7 +102,60 @@
           "href": "nikola-b-75b535359"
         }
       ]
+    },
+    {
+  "slug": "jacob-masters",
+  "name": "Jacob Masters",
+  "stream": 8,
+  "photo": "/profiles/mech-eng-31/jacob-masters.jpeg",
+  "description": "Hi, my name is Jacob and I'm from the North York area in Toronto. In my free time, I love to play hockey, the piano, and board games, and listen to artists like The Strokes, Daniel Caesar, Mac Miller, and Frank Ocean. I'm excited to learn and grow with all of you and explore all the different fields mechanical engineering has to offer!",
+  "highSchool": "Earl Haig Secondary School",
+  "hometown": "Toronto, Ontario",
+  "links": [
+    {
+      "label": "Instagram",
+      "href": "jmasters_18"
+    },
+    {
+      "label": "Discord",
+      "href": "jacob_masters"
     }
+  ]
+},
+{
+  "slug": "arya-abdi",
+  "name": "Arya Abdi",
+  "stream": 8,
+  "photo": "/profiles/mech-eng-31/arya-abdi.jpg",
+  "description": "I love stories in general, but mostly fantasy and science fiction. I love so many indie games (Outer Wilds, Celeste, etc.), and a bunch of movies and shows, animated ones in particular (Arcane, Spiderverse). I love Billie, Willis, Laufey, and Saint Motel as artists. I watched Hadestown recently and want to get into more musicals. I also love Dropout and improv content in general, including DnD. I also love board games and playing piano (except I'm not great at piano and don't have my sheet music with me, so I can't really play anything at Waterloo yet).",
+  "highSchool": "William Lyon Mackenzie Collegiate Institute",
+  "hometown": "North York, Toronto",
+  "links": [
+    {
+      "label": "Instagram",
+      "href": "arya_abcdefghi"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "arya-abdi-6769a8366"
+    }
+  ]
+},
+{
+  "slug": "elliot-ng",
+  "name": "Elliot Ng",
+  "stream": 4,
+  "photo": "/profiles/mech-eng-31/elliot-ng.jpg",
+  "description": "I enjoy playing video games like Brawl Stars, Marvel Rivals, and Big Walk. I also play Pokémon Go every day. I will play almost any sport as long as it is not competitive.",
+  "highSchool": "STEM Innovation Academy",
+  "hometown": "Calgary, Alberta",
+  "links": [
+    {
+      "label": "Instagram",
+      "href": "elliotng082024"
+    }
+  ]
+}
 
   ],
   "streams": [4, 8]
