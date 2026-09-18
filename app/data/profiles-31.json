@@ -155,6 +155,59 @@
       "href": "elliotng082024"
     }
   ]
+},
+{
+  "slug": "myles-cohen-chan",
+  "name": "Myles-Cohen Chan",
+  "stream": 4,
+  "photo": "/profiles/mech-eng-31/myles-cohen-chan.jpg",
+  "description": "Hi!! I'm really into waking up at 2PM. See me in class? Nope, and you never will!!",
+  "highSchool": "Lviv Oblast Rural High School #3 ПРО-МАКС",
+  "hometown": "Lviv (Croissants), Ukraine -> Vancouver, BC",
+  "links": [
+    {
+      "label": "",
+      "href": ""
+    }
+  ]
+},
+{
+  "slug": "yuxiang-huang",
+  "name": "Yuxiang Huang",
+  "stream": 4,
+  "photo": "/profiles/mech-eng-31/myles-cohen-chan.jpg",
+  "description": "Hi ppl call me Yuxi. I like basketball, coffee, and karaoke. Im excited to meet everyone!",
+  "highSchool": "Ecole Francois Buote",
+  "hometown": "Charlottetown, PEI",
+  "links": [
+    {
+      "label": "Instagram",
+      "href": "juicypineapple421"
+    }
+  ]
+},
+{
+  "slug": "connor-deng",
+  "name": "Connor Deng",
+  "stream": 4,
+  "photo": "/profiles/mech-eng-31/connor-deng.jpeg",
+  "description": "I like playing badminton, ping-pong, and swimming as well. I listened to pop music mostly. I also play a little bit Valorant and lots of games on Steam. I love board things very much. I also bring two board games here looking for someone is interested to it as well.",
+  "highSchool": "Victoria Park Collegiate institute",
+  "hometown": "China",
+  "links": [
+    {
+      "label": "Instagram",
+      "href": "Shuge6663"
+    },
+    {
+      "label": "Discord",
+      "href": "dhy666goubo"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "connor-deng-18bb06435"
+    }
+  ]
 }
 
   ],
