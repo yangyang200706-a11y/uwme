@@ -175,7 +175,7 @@
   "slug": "yuxiang-huang",
   "name": "Yuxiang Huang",
   "stream": 4,
-  "photo": "/profiles/mech-eng-31/myles-cohen-chan.jpg",
+  "photo": "/profiles/mech-eng-31/yuxiang-huang.jpg",
   "description": "Hi ppl call me Yuxi. I like basketball, coffee, and karaoke. Im excited to meet everyone!",
   "highSchool": "Ecole Francois Buote",
   "hometown": "Charlottetown, PEI",
@@ -208,8 +208,75 @@
       "href": "connor-deng-18bb06435"
     }
   ]
+},
+{
+  "slug": "noah-mok",
+  "name": "Noah Mok",
+  "stream": 4,
+  "photo": "/profiles/mech-eng-31/noah-mok.jpg",
+  "description": "I love playing piano, badminton, basketball, video games, and reading. I'm very outgoing and love designing all sorts of things; talk to me if you see me!",
+  "highSchool": "Davidson Academy Online",
+  "hometown": "Edmonton, Alberta",
+  "links": [
+    {
+      "label": "Instagram",
+      "href": "euler.ntm"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "ntmok"
+    },
+    {
+      "label": "Website",
+      "href": "http://noahmok.github.io"
+    }
+  ]
+},
+{
+  "slug": "andrew-ni",
+  "name": "Andrew Ni",
+  "stream": 4,
+  "photo": "/profiles/mech-eng-31/andrew-ni.jpg",
+  "description": "Other than 3D modelling, I love hanging around with friends and playing games. Even though I've definitely reduced the amount of time I spend online, I'm still a Clash Royale enthusiast. ",
+  "highSchool": "RE Mountain in BC",
+  "hometown": "Calgary, Alberta",
+  "links": [
+    {
+      "label": "Instagram",
+      "href": "chcknmnrtrns"
+    },
+    {
+      "label": "Discord",
+      "href": "bawk__"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "andrew-ni-4a7a51436"
+    }
+  ]
+},
+{
+  "slug": "danny-zhang",
+  "name": "Danny Zhang",
+  "stream": 8,
+  "photo": "/profiles/mech-eng-31/danny-zhang.jpeg",
+  "description": "Hi, My name is Danny and I’m from Windsor, Ontario. Some of my hobbies are photography, running, hiking, and reading. I’m really into racing, especially WEC, IMSA, ELMS, and GTWC, space, and building random things. ",
+  "highSchool": "Sandwich Secondary School",
+  "hometown": "Windsor, Ontario",
+  "links": [
+    {
+      "label": "Instagram",
+      "href": "dannyzhang22"
+    },
+
+    {
+      "label": "LinkedIn",
+      "href": "danny-z-zhang"
+    }
+  ]
 }
 
   ],
   "streams": [4, 8]
 }
+
