@@ -161,7 +161,7 @@
   "name": "Myles-Cohen Chan",
   "stream": 4,
   "photo": "/profiles/mech-eng-31/myles-cohen-chan.jpg",
-  "description": "Hi!! I'm really into waking up at 2PM. See me in class? Nope, and you never will!!",
+  "description": "Hi!! I'm really into waking up at 2PM. See me in class? Nope, and you never will!! Also I'm actually Ukrainian. Президент Зеленський — мій біологічний батько.",
   "highSchool": "Lviv Oblast Rural High School #3 ПРО-МАКС",
   "hometown": "Lviv (Croissants), Ukraine -> Vancouver, BC",
   "links": [
@@ -272,6 +272,107 @@
     {
       "label": "LinkedIn",
       "href": "danny-z-zhang"
+    }
+  ]
+},
+{
+  "slug": "milo-yong",
+  "name": "Milo Yong",
+  "stream": 4,
+  "photo": "/profiles/mech-eng-31/milo-yong.jpg",
+  "description": "Hi! I like 3D printing, Pokemon, typology, and Stray Kids!",
+  "highSchool": "London Central Secondary School",
+  "hometown": "London, Ontario",
+  "links": [
+    {
+      "label": "Discord",
+      "href": "saberdragon"
+    },
+
+    {
+      "label": "LinkedIn",
+      "href": "milo-yong"
+    }
+  ]
+},
+{
+  "slug": "lucas-chi",
+  "name": "Lucas Chi",
+  "stream": 4,
+  "photo": "/profiles/mech-eng-31/lucas-chi.jpeg",
+  "description": "I like golf",
+  "highSchool": "Unionville HS",
+  "hometown": "Markham, Ontario",
+  "links": [
+    
+  ]
+},
+{
+  "slug": "jerry-qiu",
+  "name": "Jerry Qiu",
+  "stream": 4,
+  "photo": "/profiles/mech-eng-31/jerry-qiu.jpg",
+  "description": "Hey everyone! I’m super into sports, especially ball hockey, basketball, table tennis, and kayaking. When I’m not playing, I’m usually watching anime. I honestly can’t live without it! Also, random fact: I’m a huge animal lover.",
+  "highSchool": "Shanghai Nanyang Model Private School",
+  "hometown": "Shanghai, China",
+  "links": [
+    {
+      "label": "Instagram",
+      "href": "rank0.14"
+    },
+    {
+      "label": "Discord",
+      "href": "Rai1gun"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "yixu-qiu-453978429"
+    }
+  ]
+},
+{
+  "slug": "richard-liao",
+  "name": "Richard Liao",
+  "stream": 4,
+  "photo": "/profiles/mech-eng-31/richard-liao.jpg",
+  "description": "In my free time, I like to listen to music and play piano. I also produce a bit of music. Apart from that, I like to photograph things and go on runs from time to time. ",
+  "highSchool": "Markville Secondary School",
+  "hometown": "Markham, Ontario",
+  "links": [
+    {
+      "label": "Instagram",
+      "href": "richard_liao12"
+    },
+    {
+      "label": "Discord",
+      "href": "richardees"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "richardliaomx"
+    }
+  ]
+},
+{
+  "slug": "sean-wu",
+  "name": "Sean Wu",
+  "stream": 4,
+  "photo": "/profiles/mech-eng-31/sean-wu.jpeg",
+  "description": "My hobby is making props from cardboard and I am part of the unofficial UW Jugger club",
+  "highSchool": "",
+  "hometown": "Hong Kong, China",
+  "links": [
+    {
+      "label": "Instagram",
+      "href": "seen.thesheep"
+    },
+    {
+      "label": "Discord",
+      "href": "My hobby is making props from cardboard and I am part of the unofficial UW Jugger club"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "sheung-lai-sean-wu-712473435"
     }
   ]
 }
