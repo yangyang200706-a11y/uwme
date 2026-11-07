@@ -31,18 +31,15 @@ export default function Home() {
 
             {/* UWME Logo — top right */}
             <Link
-              href="/class-profile"
+              href="/mech-eng-31"
               className="shrink-0 text-center transition-opacity hover:opacity-80"
             >
               <img
-                src="/uwmelogo.png"
+                src="/ME31_Logo.png"
                 alt="University of Waterloo Mech Eng Logo"
                 className="h-12 w-14 object-contain sm:h-[clamp(4rem,10vw,10rem)] sm:w-[clamp(4.5rem,12vw,12rem)]"
               />
 
-              <p className="mt-1 hidden text-[clamp(0.45rem,0.8vw,0.75rem)] font-bold text-black sm:block">
-                Temporary logo — new logo coming soon
-              </p>
             </Link>
           </div>
 
@@ -83,12 +80,12 @@ export default function Home() {
         </main>
 
         {/* Footer */}
-        <footer className="mt-auto pb-5 text-[0.55rem] uppercase leading-relaxed tracking-[0.1em] text-[#8c7f73] sm:pb-[3vh] sm:text-[clamp(0.5rem,0.85vw,0.75rem)] sm:tracking-[0.15em]">
+        <footer className="-ml-2 mt-auto pb-5 text-[0.55rem] uppercase leading-relaxed tracking-[0.1em] text-white sm:-ml-3 sm:pb-[3vh] sm:text-[clamp(0.5rem,0.85vw,0.75rem)] sm:tracking-[0.15em]">
           <p>
-            Mechanical Engineering Class of 2030 - Logo by Myles Seckler
+            Mechanical Engineering Class of 2031 - Logo by Kaumudi Jeevendra
           </p>
 
-          <p className="mt-2 normal-case tracking-normal">
+          <p className="mt-2 normal-case tracking-normal text-white">
             Background photo by uwfroshmedia
           </p>
         </footer>
