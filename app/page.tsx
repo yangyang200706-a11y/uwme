@@ -30,21 +30,20 @@ export default function Home() {
             </div>
 
             {/* UWME Logo — top right */}
-            <Link
-              href="/mech-eng-31"
-              className="shrink-0 text-center transition-opacity hover:opacity-80"
-            >
-              <img
-                src="/ME31_Logo.png"
-                alt="University of Waterloo Mech Eng Logo"
-                className="h-12 w-14 object-contain sm:h-[clamp(4rem,10vw,10rem)] sm:w-[clamp(4.5rem,12vw,12rem)]"
-              />
-
-            </Link>
+<Link
+  href="/mech-eng-31"
+  className="shrink-0 text-center transition-opacity hover:opacity-80"
+>
+  <img
+    src="/ME31_Logo.png"
+    alt="University of Waterloo Mech Eng Logo"
+    className="h-20 w-24 object-contain sm:h-[clamp(6rem,16vw,16rem)] sm:w-[clamp(7rem,19vw,19rem)]"
+  />
+</Link>
           </div>
 
           {/* Main heading */}
-          <div className="mt-12 flex flex-col items-start pb-10 sm:-mt-[10vh] sm:pb-[4vh]">
+          <div className="mt-6 flex flex-col items-start pb-10 sm:-mt-[20vh] sm:pb-[4vh]">
             <Link href="/mech-eng-31" className="group max-w-full">
               <h1
                 className="text-left font-extrabold tracking-tight drop-shadow-lg"
